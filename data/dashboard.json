@@ -1,0 +1,4167 @@
+{
+  "last_updated": "2026-04-01",
+  "summary": {
+    "total_cases": 220037,
+    "districts_monitored": 85,
+    "attorneys_tracked": 209,
+    "attorneys_flagged": 6,
+    "national_dismissal_rate": 23.7
+  },
+  "attorneys": [
+    {
+      "name": "Williamson",
+      "courts": [
+        "ksbk",
+        "moebk",
+        "mowbk"
+      ],
+      "court_count": 3,
+      "total_cases": 7427,
+      "dismissed": 1233,
+      "discharged": 5743,
+      "pending": 399,
+      "dismissal_rate": 16.6,
+      "discharge_rate": 77.3,
+      "earliest_filing": "1998-08-21",
+      "latest_filing": "2026-03-04",
+      "flag": "normal"
+    },
+    {
+      "name": "Miller",
+      "courts": [
+        "azbk",
+        "cacbk",
+        "caebk",
+        "canbk",
+        "casbk",
+        "ctbk",
+        "debk",
+        "flmbk",
+        "flnbk",
+        "flsbk",
+        "ganbk",
+        "ilnbk",
+        "innbk",
+        "insbk",
+        "ksbk",
+        "kyebk",
+        "mabk",
+        "mdbk",
+        "miebk",
+        "mowbk",
+        "nebk",
+        "njbk",
+        "nyebk",
+        "nysbk",
+        "nywbk",
+        "ohnbk",
+        "ohsbk",
+        "pambk",
+        "pawbk",
+        "scbk",
+        "txnbk",
+        "txsbk",
+        "txwbk",
+        "vaebk",
+        "waebk",
+        "wawbk",
+        "wiebk",
+        "wiwbk",
+        "wvnbk"
+      ],
+      "court_count": 39,
+      "total_cases": 6203,
+      "dismissed": 1922,
+      "discharged": 3068,
+      "pending": 280,
+      "dismissal_rate": 31.0,
+      "discharge_rate": 49.5,
+      "earliest_filing": "1984-11-28",
+      "latest_filing": "2026-02-19",
+      "flag": "volume"
+    },
+    {
+      "name": "Davis",
+      "courts": [
+        "arebk",
+        "arwbk",
+        "azbk",
+        "cacbk",
+        "caebk",
+        "casbk",
+        "debk",
+        "flmbk",
+        "flnbk",
+        "flsbk",
+        "ganbk",
+        "idbk",
+        "ilcbk",
+        "kyebk",
+        "mebk",
+        "mnbk",
+        "moebk",
+        "nvbk",
+        "nysbk",
+        "nywbk",
+        "ohnbk",
+        "ohsbk",
+        "okwbk",
+        "orbk",
+        "tnmbk",
+        "tnwbk",
+        "txnbk",
+        "txsbk",
+        "wvnbk"
+      ],
+      "court_count": 29,
+      "total_cases": 6049,
+      "dismissed": 821,
+      "discharged": 4726,
+      "pending": 86,
+      "dismissal_rate": 13.6,
+      "discharge_rate": 78.1,
+      "earliest_filing": "1985-05-31",
+      "latest_filing": "2026-02-18",
+      "flag": "volume"
+    },
+    {
+      "name": "Wagoner",
+      "courts": [
+        "ilnbk",
+        "ksbk",
+        "moebk",
+        "mowbk"
+      ],
+      "court_count": 4,
+      "total_cases": 6011,
+      "dismissed": 717,
+      "discharged": 4880,
+      "pending": 266,
+      "dismissal_rate": 11.9,
+      "discharge_rate": 81.2,
+      "earliest_filing": "1997-03-10",
+      "latest_filing": "2026-02-11",
+      "flag": "normal"
+    },
+    {
+      "name": "Hernandez",
+      "courts": [
+        "caebk",
+        "dcbk",
+        "flmbk",
+        "flnbk",
+        "flsbk",
+        "nyebk",
+        "prbk",
+        "vaebk",
+        "vawbk"
+      ],
+      "court_count": 9,
+      "total_cases": 5910,
+      "dismissed": 1279,
+      "discharged": 4394,
+      "pending": 157,
+      "dismissal_rate": 21.6,
+      "discharge_rate": 74.3,
+      "earliest_filing": "1989-05-15",
+      "latest_filing": "2026-03-13",
+      "flag": "normal"
+    },
+    {
+      "name": "Keeling",
+      "courts": [
+        "txsbk"
+      ],
+      "court_count": 1,
+      "total_cases": 5474,
+      "dismissed": 3002,
+      "discharged": 2416,
+      "pending": 39,
+      "dismissal_rate": 54.8,
+      "discharge_rate": 44.1,
+      "earliest_filing": "1997-01-02",
+      "latest_filing": "2024-12-18",
+      "flag": "warning"
+    },
+    {
+      "name": "Hall",
+      "courts": [
+        "almbk",
+        "alnbk",
+        "arwbk",
+        "cacbk",
+        "cobk",
+        "flmbk",
+        "flnbk",
+        "flsbk",
+        "hibk",
+        "ilcbk",
+        "ilnbk",
+        "ilsbk",
+        "innbk",
+        "insbk",
+        "kyebk",
+        "kywbk",
+        "mabk",
+        "moebk",
+        "ohnbk",
+        "vaebk"
+      ],
+      "court_count": 20,
+      "total_cases": 5432,
+      "dismissed": 792,
+      "discharged": 2483,
+      "pending": 2092,
+      "dismissal_rate": 14.6,
+      "discharge_rate": 45.7,
+      "earliest_filing": "1991-10-21",
+      "latest_filing": "2026-03-11",
+      "flag": "volume"
+    },
+    {
+      "name": "Cordero",
+      "courts": [
+        "flsbk",
+        "txwbk"
+      ],
+      "court_count": 2,
+      "total_cases": 5400,
+      "dismissed": 1144,
+      "discharged": 4016,
+      "pending": 191,
+      "dismissal_rate": 21.2,
+      "discharge_rate": 74.4,
+      "earliest_filing": "1991-01-08",
+      "latest_filing": "2025-03-07",
+      "flag": "normal"
+    },
+    {
+      "name": "Wajda",
+      "courts": [
+        "cacbk"
+      ],
+      "court_count": 1,
+      "total_cases": 5400,
+      "dismissed": 471,
+      "discharged": 4857,
+      "pending": 11,
+      "dismissal_rate": 8.7,
+      "discharge_rate": 89.9,
+      "earliest_filing": "2009-01-13",
+      "latest_filing": "2024-12-05",
+      "flag": "normal"
+    },
+    {
+      "name": "Ozment",
+      "courts": [
+        "arebk",
+        "arwbk",
+        "flmbk",
+        "flsbk",
+        "msnbk",
+        "nysbk",
+        "tnmbk",
+        "tnwbk",
+        "txsbk"
+      ],
+      "court_count": 9,
+      "total_cases": 5307,
+      "dismissed": 1685,
+      "discharged": 3495,
+      "pending": 34,
+      "dismissal_rate": 31.8,
+      "discharge_rate": 65.9,
+      "earliest_filing": "1991-05-21",
+      "latest_filing": "2026-02-09",
+      "flag": "normal"
+    },
+    {
+      "name": "Van",
+      "courts": [
+        "akbk",
+        "flmbk",
+        "flnbk",
+        "flsbk"
+      ],
+      "court_count": 4,
+      "total_cases": 5301,
+      "dismissed": 1027,
+      "discharged": 3682,
+      "pending": 479,
+      "dismissal_rate": 19.4,
+      "discharge_rate": 69.5,
+      "earliest_filing": "2005-08-04",
+      "latest_filing": "2026-03-16",
+      "flag": "normal"
+    },
+    {
+      "name": "Kingcade",
+      "courts": [
+        "flmbk",
+        "flsbk"
+      ],
+      "court_count": 2,
+      "total_cases": 5292,
+      "dismissed": 1054,
+      "discharged": 4170,
+      "pending": 44,
+      "dismissal_rate": 19.9,
+      "discharge_rate": 78.8,
+      "earliest_filing": "2000-01-05",
+      "latest_filing": "2026-02-27",
+      "flag": "normal"
+    },
+    {
+      "name": "Gold",
+      "courts": [
+        "almbk",
+        "alnbk",
+        "azbk",
+        "cacbk",
+        "caebk",
+        "ctbk",
+        "dcbk",
+        "debk",
+        "flsbk",
+        "iasbk",
+        "ilnbk",
+        "kyebk",
+        "kywbk",
+        "mabk",
+        "mdbk",
+        "mebk",
+        "miwbk",
+        "moebk",
+        "mowbk",
+        "msnbk",
+        "mtbk",
+        "ncmbk",
+        "njbk",
+        "nvbk",
+        "nysbk",
+        "ohnbk",
+        "ohsbk",
+        "paebk",
+        "pawbk",
+        "txsbk",
+        "vaebk",
+        "vtbk",
+        "wiebk",
+        "wvsbk"
+      ],
+      "court_count": 34,
+      "total_cases": 5285,
+      "dismissed": 587,
+      "discharged": 4186,
+      "pending": 182,
+      "dismissal_rate": 11.1,
+      "discharge_rate": 79.2,
+      "earliest_filing": "1984-10-19",
+      "latest_filing": "2026-02-27",
+      "flag": "volume"
+    },
+    {
+      "name": "Robinson",
+      "courts": [
+        "ksbk",
+        "kyebk",
+        "mowbk",
+        "okwbk"
+      ],
+      "court_count": 4,
+      "total_cases": 5158,
+      "dismissed": 1126,
+      "discharged": 3766,
+      "pending": 166,
+      "dismissal_rate": 21.8,
+      "discharge_rate": 73.0,
+      "earliest_filing": "1992-08-21",
+      "latest_filing": "2025-04-14",
+      "flag": "normal"
+    },
+    {
+      "name": "Amerine",
+      "courts": [
+        "ksbk",
+        "moebk",
+        "mowbk",
+        "txsbk"
+      ],
+      "court_count": 4,
+      "total_cases": 4995,
+      "dismissed": 1087,
+      "discharged": 3498,
+      "pending": 316,
+      "dismissal_rate": 21.8,
+      "discharge_rate": 70.0,
+      "earliest_filing": "2000-11-15",
+      "latest_filing": "2026-02-25",
+      "flag": "normal"
+    },
+    {
+      "name": "Coons",
+      "courts": [
+        "ksbk",
+        "moebk",
+        "mowbk"
+      ],
+      "court_count": 3,
+      "total_cases": 4914,
+      "dismissed": 879,
+      "discharged": 3356,
+      "pending": 646,
+      "dismissal_rate": 17.9,
+      "discharge_rate": 68.3,
+      "earliest_filing": "1998-01-23",
+      "latest_filing": "2026-02-28",
+      "flag": "normal"
+    },
+    {
+      "name": "Baker",
+      "courts": [
+        "mowbk",
+        "txsbk"
+      ],
+      "court_count": 2,
+      "total_cases": 4700,
+      "dismissed": 1965,
+      "discharged": 2635,
+      "pending": 17,
+      "dismissal_rate": 41.8,
+      "discharge_rate": 56.1,
+      "earliest_filing": "1997-05-02",
+      "latest_filing": "2024-12-05",
+      "flag": "warning"
+    },
+    {
+      "name": "Hinck",
+      "courts": [
+        "ksbk",
+        "moebk",
+        "mowbk"
+      ],
+      "court_count": 3,
+      "total_cases": 4516,
+      "dismissed": 794,
+      "discharged": 3007,
+      "pending": 685,
+      "dismissal_rate": 17.6,
+      "discharge_rate": 66.6,
+      "earliest_filing": "1998-03-27",
+      "latest_filing": "2026-02-27",
+      "flag": "normal"
+    },
+    {
+      "name": "Rodriguez",
+      "courts": [
+        "arebk",
+        "arwbk",
+        "cacbk",
+        "dcbk",
+        "flmbk",
+        "flnbk",
+        "flsbk",
+        "gambk",
+        "kywbk",
+        "miwbk",
+        "ncmbk",
+        "njbk",
+        "nvbk",
+        "nysbk",
+        "vaebk",
+        "wvnbk"
+      ],
+      "court_count": 16,
+      "total_cases": 4448,
+      "dismissed": 1839,
+      "discharged": 1544,
+      "pending": 836,
+      "dismissal_rate": 41.3,
+      "discharge_rate": 34.7,
+      "earliest_filing": "1980-07-30",
+      "latest_filing": "2026-03-12",
+      "flag": "warning"
+    },
+    {
+      "name": "Busby",
+      "courts": [
+        "txsbk"
+      ],
+      "court_count": 1,
+      "total_cases": 4046,
+      "dismissed": 1499,
+      "discharged": 2503,
+      "pending": 1,
+      "dismissal_rate": 37.0,
+      "discharge_rate": 61.9,
+      "earliest_filing": "2001-06-15",
+      "latest_filing": "2019-01-25",
+      "flag": "normal"
+    },
+    {
+      "name": "Koplow",
+      "courts": [
+        "canbk",
+        "flmbk",
+        "flsbk",
+        "njbk",
+        "nyebk",
+        "nysbk",
+        "ohnbk",
+        "txsbk"
+      ],
+      "court_count": 8,
+      "total_cases": 3983,
+      "dismissed": 669,
+      "discharged": 2652,
+      "pending": 647,
+      "dismissal_rate": 16.8,
+      "discharge_rate": 66.6,
+      "earliest_filing": "1994-09-16",
+      "latest_filing": "2026-03-16",
+      "flag": "normal"
+    },
+    {
+      "name": "Troppito",
+      "courts": [
+        "arwbk",
+        "cacbk",
+        "ilsbk",
+        "ksbk",
+        "moebk",
+        "mowbk",
+        "njbk",
+        "ohnbk",
+        "scbk",
+        "txebk",
+        "txwbk"
+      ],
+      "court_count": 11,
+      "total_cases": 3761,
+      "dismissed": 1012,
+      "discharged": 2514,
+      "pending": 135,
+      "dismissal_rate": 26.9,
+      "discharge_rate": 66.8,
+      "earliest_filing": "1998-10-08",
+      "latest_filing": "2025-08-12",
+      "flag": "volume"
+    },
+    {
+      "name": "Lewis",
+      "courts": [
+        "almbk",
+        "cacbk",
+        "cobk",
+        "ctbk",
+        "flmbk",
+        "flnbk",
+        "flsbk",
+        "ilsbk",
+        "nyebk",
+        "nysbk",
+        "ohsbk",
+        "scbk",
+        "tnebk",
+        "txsbk",
+        "wawbk"
+      ],
+      "court_count": 15,
+      "total_cases": 3690,
+      "dismissed": 1305,
+      "discharged": 2184,
+      "pending": 107,
+      "dismissal_rate": 35.4,
+      "discharge_rate": 59.2,
+      "earliest_filing": "1981-01-05",
+      "latest_filing": "2026-02-26",
+      "flag": "volume"
+    },
+    {
+      "name": "Breyfogle",
+      "courts": [
+        "ksbk",
+        "moebk",
+        "mowbk"
+      ],
+      "court_count": 3,
+      "total_cases": 3642,
+      "dismissed": 1163,
+      "discharged": 2019,
+      "pending": 369,
+      "dismissal_rate": 31.9,
+      "discharge_rate": 55.4,
+      "earliest_filing": "1994-10-07",
+      "latest_filing": "2026-02-24",
+      "flag": "normal"
+    },
+    {
+      "name": "Aguinaga",
+      "courts": [
+        "txsbk"
+      ],
+      "court_count": 1,
+      "total_cases": 3333,
+      "dismissed": 1242,
+      "discharged": 1931,
+      "pending": 106,
+      "dismissal_rate": 37.3,
+      "discharge_rate": 57.9,
+      "earliest_filing": "1998-06-18",
+      "latest_filing": "2026-02-03",
+      "flag": "normal"
+    },
+    {
+      "name": "Macey",
+      "courts": [
+        "ilnbk"
+      ],
+      "court_count": 1,
+      "total_cases": 2759,
+      "dismissed": 577,
+      "discharged": 2054,
+      "pending": 116,
+      "dismissal_rate": 20.9,
+      "discharge_rate": 74.4,
+      "earliest_filing": "1994-04-01",
+      "latest_filing": "2004-09-30",
+      "flag": "normal"
+    },
+    {
+      "name": "Licata",
+      "courts": [
+        "ksbk",
+        "mowbk"
+      ],
+      "court_count": 2,
+      "total_cases": 2691,
+      "dismissed": 163,
+      "discharged": 2258,
+      "pending": 182,
+      "dismissal_rate": 6.1,
+      "discharge_rate": 83.9,
+      "earliest_filing": "2004-03-31",
+      "latest_filing": "2026-02-27",
+      "flag": "normal"
+    },
+    {
+      "name": "Halloran",
+      "courts": [
+        "flmbk",
+        "flnbk",
+        "flsbk",
+        "ganbk",
+        "ncwbk",
+        "pambk"
+      ],
+      "court_count": 6,
+      "total_cases": 2608,
+      "dismissed": 814,
+      "discharged": 1655,
+      "pending": 15,
+      "dismissal_rate": 31.2,
+      "discharge_rate": 63.5,
+      "earliest_filing": "1995-07-25",
+      "latest_filing": "2025-08-23",
+      "flag": "normal"
+    },
+    {
+      "name": "Callahan",
+      "courts": [
+        "ilnbk",
+        "ksbk",
+        "moebk",
+        "mowbk"
+      ],
+      "court_count": 4,
+      "total_cases": 2520,
+      "dismissed": 321,
+      "discharged": 1589,
+      "pending": 579,
+      "dismissal_rate": 12.7,
+      "discharge_rate": 63.1,
+      "earliest_filing": "2009-07-08",
+      "latest_filing": "2026-02-27",
+      "flag": "normal"
+    },
+    {
+      "name": "Ellis",
+      "courts": [
+        "ksbk",
+        "moebk",
+        "mowbk"
+      ],
+      "court_count": 3,
+      "total_cases": 2469,
+      "dismissed": 232,
+      "discharged": 1465,
+      "pending": 695,
+      "dismissal_rate": 9.4,
+      "discharge_rate": 59.3,
+      "earliest_filing": "2008-07-25",
+      "latest_filing": "2026-02-27",
+      "flag": "normal"
+    },
+    {
+      "name": "Trueba",
+      "courts": [
+        "txsbk"
+      ],
+      "court_count": 1,
+      "total_cases": 2291,
+      "dismissed": 916,
+      "discharged": 1186,
+      "pending": 153,
+      "dismissal_rate": 40.0,
+      "discharge_rate": 51.8,
+      "earliest_filing": "1995-11-16",
+      "latest_filing": "2026-02-13",
+      "flag": "warning"
+    },
+    {
+      "name": "Aleman",
+      "courts": [
+        "ilnbk",
+        "ilsbk",
+        "wiwbk"
+      ],
+      "court_count": 3,
+      "total_cases": 2267,
+      "dismissed": 233,
+      "discharged": 1992,
+      "pending": 26,
+      "dismissal_rate": 10.3,
+      "discharge_rate": 87.9,
+      "earliest_filing": "1997-02-25",
+      "latest_filing": "2005-02-16",
+      "flag": "normal"
+    },
+    {
+      "name": "Acosta",
+      "courts": [
+        "txsbk"
+      ],
+      "court_count": 1,
+      "total_cases": 2172,
+      "dismissed": 778,
+      "discharged": 1323,
+      "pending": 25,
+      "dismissal_rate": 35.8,
+      "discharge_rate": 60.9,
+      "earliest_filing": "1997-09-24",
+      "latest_filing": "2026-02-09",
+      "flag": "normal"
+    },
+    {
+      "name": "Jeppson",
+      "courts": [
+        "ksbk",
+        "moebk",
+        "mowbk"
+      ],
+      "court_count": 3,
+      "total_cases": 2074,
+      "dismissed": 312,
+      "discharged": 1095,
+      "pending": 591,
+      "dismissal_rate": 15.0,
+      "discharge_rate": 52.8,
+      "earliest_filing": "2009-04-08",
+      "latest_filing": "2026-02-27",
+      "flag": "normal"
+    },
+    {
+      "name": "Gilpin",
+      "courts": [
+        "txsbk"
+      ],
+      "court_count": 1,
+      "total_cases": 2053,
+      "dismissed": 752,
+      "discharged": 1229,
+      "pending": 42,
+      "dismissal_rate": 36.6,
+      "discharge_rate": 59.9,
+      "earliest_filing": "2004-03-01",
+      "latest_filing": "2024-08-31",
+      "flag": "normal"
+    },
+    {
+      "name": "Neis",
+      "courts": [
+        "ctbk",
+        "ksbk",
+        "mowbk"
+      ],
+      "court_count": 3,
+      "total_cases": 1999,
+      "dismissed": 181,
+      "discharged": 1570,
+      "pending": 235,
+      "dismissal_rate": 9.1,
+      "discharge_rate": 78.5,
+      "earliest_filing": "1988-08-16",
+      "latest_filing": "2026-02-18",
+      "flag": "normal"
+    },
+    {
+      "name": "Blay",
+      "courts": [
+        "ilcbk",
+        "ilnbk",
+        "ksbk",
+        "moebk",
+        "mowbk",
+        "wiebk",
+        "wiwbk"
+      ],
+      "court_count": 7,
+      "total_cases": 1844,
+      "dismissed": 432,
+      "discharged": 1129,
+      "pending": 218,
+      "dismissal_rate": 23.4,
+      "discharge_rate": 61.2,
+      "earliest_filing": "2006-05-11",
+      "latest_filing": "2026-03-04",
+      "flag": "normal"
+    },
+    {
+      "name": "Kim",
+      "courts": [
+        "txsbk"
+      ],
+      "court_count": 1,
+      "total_cases": 1841,
+      "dismissed": 626,
+      "discharged": 813,
+      "pending": 390,
+      "dismissal_rate": 34.0,
+      "discharge_rate": 44.2,
+      "earliest_filing": "2012-04-30",
+      "latest_filing": "2026-02-13",
+      "flag": "normal"
+    },
+    {
+      "name": "Moscov",
+      "courts": [
+        "ksbk",
+        "moebk",
+        "mowbk"
+      ],
+      "court_count": 3,
+      "total_cases": 1826,
+      "dismissed": 236,
+      "discharged": 1216,
+      "pending": 369,
+      "dismissal_rate": 12.9,
+      "discharge_rate": 66.6,
+      "earliest_filing": "1998-10-29",
+      "latest_filing": "2026-01-30",
+      "flag": "normal"
+    },
+    {
+      "name": "Milby",
+      "courts": [
+        "ksbk",
+        "moebk",
+        "mowbk"
+      ],
+      "court_count": 3,
+      "total_cases": 1797,
+      "dismissed": 139,
+      "discharged": 1491,
+      "pending": 134,
+      "dismissal_rate": 7.7,
+      "discharge_rate": 83.0,
+      "earliest_filing": "1997-04-21",
+      "latest_filing": "2026-02-27",
+      "flag": "normal"
+    },
+    {
+      "name": "Michaux",
+      "courts": [
+        "ksbk"
+      ],
+      "court_count": 1,
+      "total_cases": 1794,
+      "dismissed": 114,
+      "discharged": 1499,
+      "pending": 169,
+      "dismissal_rate": 6.4,
+      "discharge_rate": 83.6,
+      "earliest_filing": "1991-04-10",
+      "latest_filing": "2026-02-11",
+      "flag": "normal"
+    },
+    {
+      "name": "Gotham",
+      "courts": [
+        "ksbk",
+        "moebk",
+        "mowbk"
+      ],
+      "court_count": 3,
+      "total_cases": 1776,
+      "dismissed": 248,
+      "discharged": 1080,
+      "pending": 402,
+      "dismissal_rate": 14.0,
+      "discharge_rate": 60.8,
+      "earliest_filing": "2000-09-20",
+      "latest_filing": "2026-02-13",
+      "flag": "normal"
+    },
+    {
+      "name": "Southward",
+      "courts": [
+        "txsbk"
+      ],
+      "court_count": 1,
+      "total_cases": 1723,
+      "dismissed": 181,
+      "discharged": 948,
+      "pending": 587,
+      "dismissal_rate": 10.5,
+      "discharge_rate": 55.0,
+      "earliest_filing": "2014-04-03",
+      "latest_filing": "2026-02-12",
+      "flag": "normal"
+    },
+    {
+      "name": "Beustring",
+      "courts": [
+        "txsbk"
+      ],
+      "court_count": 1,
+      "total_cases": 1589,
+      "dismissed": 107,
+      "discharged": 1423,
+      "pending": 21,
+      "dismissal_rate": 6.7,
+      "discharge_rate": 89.6,
+      "earliest_filing": "1993-02-10",
+      "latest_filing": "2026-02-09",
+      "flag": "normal"
+    },
+    {
+      "name": "Douglas",
+      "courts": [
+        "ksbk",
+        "moebk"
+      ],
+      "court_count": 2,
+      "total_cases": 1557,
+      "dismissed": 71,
+      "discharged": 1350,
+      "pending": 128,
+      "dismissal_rate": 4.6,
+      "discharge_rate": 86.7,
+      "earliest_filing": "2010-04-22",
+      "latest_filing": "2026-02-23",
+      "flag": "normal"
+    },
+    {
+      "name": "Maxcy",
+      "courts": [
+        "ksbk",
+        "moebk",
+        "mowbk"
+      ],
+      "court_count": 3,
+      "total_cases": 1526,
+      "dismissed": 170,
+      "discharged": 1137,
+      "pending": 167,
+      "dismissal_rate": 11.1,
+      "discharge_rate": 74.5,
+      "earliest_filing": "2000-07-26",
+      "latest_filing": "2025-11-26",
+      "flag": "normal"
+    },
+    {
+      "name": "Foley",
+      "courts": [
+        "ksbk",
+        "moebk",
+        "mowbk"
+      ],
+      "court_count": 3,
+      "total_cases": 1495,
+      "dismissed": 180,
+      "discharged": 1199,
+      "pending": 36,
+      "dismissal_rate": 12.0,
+      "discharge_rate": 80.2,
+      "earliest_filing": "1996-07-10",
+      "latest_filing": "2026-02-12",
+      "flag": "normal"
+    },
+    {
+      "name": "Sader",
+      "courts": [
+        "arebk",
+        "azbk",
+        "cobk",
+        "debk",
+        "flsbk",
+        "ilcbk",
+        "ilnbk",
+        "ksbk",
+        "miebk",
+        "moebk",
+        "mowbk",
+        "nebk",
+        "nvbk",
+        "ohsbk",
+        "txnbk"
+      ],
+      "court_count": 15,
+      "total_cases": 1407,
+      "dismissed": 312,
+      "discharged": 844,
+      "pending": 122,
+      "dismissal_rate": 22.2,
+      "discharge_rate": 60.0,
+      "earliest_filing": "1990-02-16",
+      "latest_filing": "2026-02-25",
+      "flag": "volume"
+    },
+    {
+      "name": "Martinez",
+      "courts": [
+        "cacbk",
+        "caebk",
+        "canbk",
+        "flsbk",
+        "ganbk",
+        "njbk",
+        "nmbk",
+        "txnbk",
+        "txsbk"
+      ],
+      "court_count": 9,
+      "total_cases": 1386,
+      "dismissed": 216,
+      "discharged": 987,
+      "pending": 93,
+      "dismissal_rate": 15.6,
+      "discharge_rate": 71.2,
+      "earliest_filing": "1996-04-01",
+      "latest_filing": "2026-03-13",
+      "flag": "normal"
+    },
+    {
+      "name": "Stowell",
+      "courts": [
+        "ksbk",
+        "mnbk",
+        "moebk",
+        "mowbk"
+      ],
+      "court_count": 4,
+      "total_cases": 1376,
+      "dismissed": 199,
+      "discharged": 877,
+      "pending": 239,
+      "dismissal_rate": 14.5,
+      "discharge_rate": 63.7,
+      "earliest_filing": "2008-08-07",
+      "latest_filing": "2026-03-04",
+      "flag": "normal"
+    },
+    {
+      "name": "Scott",
+      "courts": [
+        "cacbk",
+        "caebk",
+        "ctbk",
+        "debk",
+        "flmbk",
+        "flnbk",
+        "flsbk",
+        "ilnbk",
+        "kyebk",
+        "mabk",
+        "ncmbk",
+        "nvbk",
+        "nysbk",
+        "ohnbk",
+        "pawbk",
+        "txnbk",
+        "txsbk",
+        "txwbk",
+        "wawbk"
+      ],
+      "court_count": 19,
+      "total_cases": 1321,
+      "dismissed": 331,
+      "discharged": 621,
+      "pending": 11,
+      "dismissal_rate": 25.1,
+      "discharge_rate": 47.0,
+      "earliest_filing": "1935-07-03",
+      "latest_filing": "2023-05-15",
+      "flag": "volume"
+    },
+    {
+      "name": "Fera",
+      "courts": [
+        "mowbk"
+      ],
+      "court_count": 1,
+      "total_cases": 1318,
+      "dismissed": 228,
+      "discharged": 1060,
+      "pending": 8,
+      "dismissal_rate": 17.3,
+      "discharge_rate": 80.4,
+      "earliest_filing": "2001-12-17",
+      "latest_filing": "2021-12-09",
+      "flag": "normal"
+    },
+    {
+      "name": "Hickey",
+      "courts": [
+        "ksbk",
+        "moebk"
+      ],
+      "court_count": 2,
+      "total_cases": 1273,
+      "dismissed": 46,
+      "discharged": 1158,
+      "pending": 58,
+      "dismissal_rate": 3.6,
+      "discharge_rate": 91.0,
+      "earliest_filing": "1995-04-07",
+      "latest_filing": "2026-02-18",
+      "flag": "normal"
+    },
+    {
+      "name": "Martin",
+      "courts": [
+        "almbk",
+        "azbk",
+        "cacbk",
+        "canbk",
+        "casbk",
+        "cobk",
+        "ctbk",
+        "debk",
+        "flmbk",
+        "flsbk",
+        "gambk",
+        "ganbk",
+        "hibk",
+        "insbk",
+        "ksbk",
+        "kyebk",
+        "kywbk",
+        "laebk",
+        "lambk",
+        "lawbk",
+        "mabk",
+        "mowbk",
+        "ndbk",
+        "nebk",
+        "nhbk",
+        "njbk",
+        "nmbk",
+        "nvbk",
+        "nyebk",
+        "nysbk",
+        "ohsbk",
+        "oknbk",
+        "orbk",
+        "paebk",
+        "pawbk",
+        "ribk",
+        "sdbk",
+        "tnebk",
+        "tnmbk",
+        "txnbk",
+        "txsbk",
+        "vaebk",
+        "wvnbk",
+        "wvsbk"
+      ],
+      "court_count": 44,
+      "total_cases": 1218,
+      "dismissed": 302,
+      "discharged": 742,
+      "pending": 71,
+      "dismissal_rate": 24.8,
+      "discharge_rate": 60.9,
+      "earliest_filing": "1985-06-10",
+      "latest_filing": "2026-03-05",
+      "flag": "volume"
+    },
+    {
+      "name": "Green",
+      "courts": [
+        "arebk",
+        "arwbk",
+        "debk",
+        "flmbk",
+        "flnbk",
+        "flsbk",
+        "gambk",
+        "ganbk",
+        "ilnbk",
+        "ilsbk",
+        "kyebk",
+        "mabk",
+        "moebk",
+        "mowbk",
+        "nvbk",
+        "ohsbk",
+        "txnbk",
+        "txsbk"
+      ],
+      "court_count": 18,
+      "total_cases": 1195,
+      "dismissed": 140,
+      "discharged": 727,
+      "pending": 301,
+      "dismissal_rate": 11.7,
+      "discharge_rate": 60.8,
+      "earliest_filing": "1985-08-27",
+      "latest_filing": "2026-03-05",
+      "flag": "volume"
+    },
+    {
+      "name": "Wiesner",
+      "courts": [
+        "ksbk",
+        "mowbk"
+      ],
+      "court_count": 2,
+      "total_cases": 1107,
+      "dismissed": 197,
+      "discharged": 840,
+      "pending": 25,
+      "dismissal_rate": 17.8,
+      "discharge_rate": 75.9,
+      "earliest_filing": "1999-12-15",
+      "latest_filing": "2024-08-16",
+      "flag": "normal"
+    },
+    {
+      "name": "Wyatt",
+      "courts": [
+        "ksbk",
+        "mowbk"
+      ],
+      "court_count": 2,
+      "total_cases": 1101,
+      "dismissed": 59,
+      "discharged": 1002,
+      "pending": 5,
+      "dismissal_rate": 5.4,
+      "discharge_rate": 91.0,
+      "earliest_filing": "2007-01-24",
+      "latest_filing": "2022-12-28",
+      "flag": "normal"
+    },
+    {
+      "name": "Roach",
+      "courts": [
+        "moebk",
+        "mowbk",
+        "ohsbk",
+        "wawbk"
+      ],
+      "court_count": 4,
+      "total_cases": 1043,
+      "dismissed": 385,
+      "discharged": 426,
+      "pending": 146,
+      "dismissal_rate": 36.9,
+      "discharge_rate": 40.8,
+      "earliest_filing": "2001-04-02",
+      "latest_filing": "2026-02-06",
+      "flag": "normal"
+    },
+    {
+      "name": "Patton",
+      "courts": [
+        "ksbk",
+        "moebk",
+        "mowbk"
+      ],
+      "court_count": 3,
+      "total_cases": 965,
+      "dismissed": 174,
+      "discharged": 479,
+      "pending": 303,
+      "dismissal_rate": 18.0,
+      "discharge_rate": 49.6,
+      "earliest_filing": "2013-04-11",
+      "latest_filing": "2026-02-28",
+      "flag": "normal"
+    },
+    {
+      "name": "Dodson",
+      "courts": [
+        "ksbk",
+        "moebk",
+        "mowbk"
+      ],
+      "court_count": 3,
+      "total_cases": 818,
+      "dismissed": 89,
+      "discharged": 706,
+      "pending": 0,
+      "dismissal_rate": 10.9,
+      "discharge_rate": 86.3,
+      "earliest_filing": "2005-01-24",
+      "latest_filing": "2017-11-30",
+      "flag": "normal"
+    },
+    {
+      "name": "Gonzalez",
+      "courts": [
+        "caebk",
+        "flmbk",
+        "flsbk",
+        "njbk"
+      ],
+      "court_count": 4,
+      "total_cases": 758,
+      "dismissed": 221,
+      "discharged": 483,
+      "pending": 50,
+      "dismissal_rate": 29.2,
+      "discharge_rate": 63.7,
+      "earliest_filing": "1999-12-29",
+      "latest_filing": "2026-02-04",
+      "flag": "normal"
+    },
+    {
+      "name": "Knipp",
+      "courts": [
+        "ksbk",
+        "moebk",
+        "mowbk"
+      ],
+      "court_count": 3,
+      "total_cases": 758,
+      "dismissed": 176,
+      "discharged": 376,
+      "pending": 182,
+      "dismissal_rate": 23.2,
+      "discharge_rate": 49.6,
+      "earliest_filing": "2008-09-11",
+      "latest_filing": "2026-02-27",
+      "flag": "normal"
+    },
+    {
+      "name": "Westbrook",
+      "courts": [
+        "ksbk",
+        "moebk",
+        "mowbk"
+      ],
+      "court_count": 3,
+      "total_cases": 749,
+      "dismissed": 69,
+      "discharged": 558,
+      "pending": 112,
+      "dismissal_rate": 9.2,
+      "discharge_rate": 74.5,
+      "earliest_filing": "2006-02-28",
+      "latest_filing": "2026-02-04",
+      "flag": "normal"
+    },
+    {
+      "name": "Dopps",
+      "courts": [
+        "ksbk",
+        "moebk"
+      ],
+      "court_count": 2,
+      "total_cases": 708,
+      "dismissed": 19,
+      "discharged": 403,
+      "pending": 282,
+      "dismissal_rate": 2.7,
+      "discharge_rate": 56.9,
+      "earliest_filing": "2019-01-30",
+      "latest_filing": "2026-02-27",
+      "flag": "normal"
+    },
+    {
+      "name": "Vick",
+      "courts": [
+        "debk",
+        "ksbk",
+        "mowbk",
+        "txnbk"
+      ],
+      "court_count": 4,
+      "total_cases": 644,
+      "dismissed": 155,
+      "discharged": 441,
+      "pending": 0,
+      "dismissal_rate": 24.1,
+      "discharge_rate": 68.5,
+      "earliest_filing": "2003-10-30",
+      "latest_filing": "2023-07-03",
+      "flag": "normal"
+    },
+    {
+      "name": "Garcia",
+      "courts": [
+        "cacbk",
+        "ctbk",
+        "flmbk",
+        "flsbk"
+      ],
+      "court_count": 4,
+      "total_cases": 587,
+      "dismissed": 102,
+      "discharged": 446,
+      "pending": 16,
+      "dismissal_rate": 17.4,
+      "discharge_rate": 76.0,
+      "earliest_filing": "1983-01-03",
+      "latest_filing": "2026-02-13",
+      "flag": "normal"
+    },
+    {
+      "name": "Byman",
+      "courts": [
+        "txsbk"
+      ],
+      "court_count": 1,
+      "total_cases": 454,
+      "dismissed": 53,
+      "discharged": 213,
+      "pending": 14,
+      "dismissal_rate": 11.7,
+      "discharge_rate": 46.9,
+      "earliest_filing": "1998-07-15",
+      "latest_filing": "2025-12-11",
+      "flag": "normal"
+    },
+    {
+      "name": "White-Boyd",
+      "courts": [
+        "flmbk",
+        "flsbk"
+      ],
+      "court_count": 2,
+      "total_cases": 452,
+      "dismissed": 99,
+      "discharged": 311,
+      "pending": 6,
+      "dismissal_rate": 21.9,
+      "discharge_rate": 68.8,
+      "earliest_filing": "2003-10-29",
+      "latest_filing": "2023-08-25",
+      "flag": "normal"
+    },
+    {
+      "name": "Graham",
+      "courts": [
+        "debk",
+        "ksbk",
+        "moebk",
+        "mowbk",
+        "ohsbk"
+      ],
+      "court_count": 5,
+      "total_cases": 441,
+      "dismissed": 60,
+      "discharged": 93,
+      "pending": 287,
+      "dismissal_rate": 13.6,
+      "discharge_rate": 21.1,
+      "earliest_filing": "2018-01-11",
+      "latest_filing": "2026-02-27",
+      "flag": "normal"
+    },
+    {
+      "name": "Mardian",
+      "courts": [
+        "ksbk",
+        "mowbk"
+      ],
+      "court_count": 2,
+      "total_cases": 439,
+      "dismissed": 41,
+      "discharged": 304,
+      "pending": 78,
+      "dismissal_rate": 9.3,
+      "discharge_rate": 69.2,
+      "earliest_filing": "2009-07-29",
+      "latest_filing": "2026-02-24",
+      "flag": "normal"
+    },
+    {
+      "name": "Martinez-Molina",
+      "courts": [
+        "debk",
+        "flmbk",
+        "flsbk",
+        "mssbk",
+        "njbk",
+        "nysbk",
+        "pawbk"
+      ],
+      "court_count": 7,
+      "total_cases": 439,
+      "dismissed": 112,
+      "discharged": 193,
+      "pending": 50,
+      "dismissal_rate": 25.5,
+      "discharge_rate": 44.0,
+      "earliest_filing": "1991-12-06",
+      "latest_filing": "2026-02-26",
+      "flag": "normal"
+    },
+    {
+      "name": "Walden",
+      "courts": [
+        "ksbk",
+        "mowbk"
+      ],
+      "court_count": 2,
+      "total_cases": 439,
+      "dismissed": 14,
+      "discharged": 354,
+      "pending": 68,
+      "dismissal_rate": 3.2,
+      "discharge_rate": 80.6,
+      "earliest_filing": "2004-12-09",
+      "latest_filing": "2026-02-26",
+      "flag": "normal"
+    },
+    {
+      "name": "Lopez",
+      "courts": [
+        "flmbk",
+        "flsbk",
+        "txnbk"
+      ],
+      "court_count": 3,
+      "total_cases": 411,
+      "dismissed": 76,
+      "discharged": 274,
+      "pending": 46,
+      "dismissal_rate": 18.5,
+      "discharge_rate": 66.7,
+      "earliest_filing": "1992-05-15",
+      "latest_filing": "2026-02-27",
+      "flag": "normal"
+    },
+    {
+      "name": "Lee",
+      "courts": [
+        "azbk",
+        "cacbk",
+        "caebk",
+        "canbk",
+        "cobk",
+        "debk",
+        "flmbk",
+        "flsbk",
+        "ilnbk",
+        "ohsbk",
+        "okwbk",
+        "txsbk",
+        "txwbk",
+        "vaebk"
+      ],
+      "court_count": 14,
+      "total_cases": 393,
+      "dismissed": 198,
+      "discharged": 159,
+      "pending": 8,
+      "dismissal_rate": 50.4,
+      "discharge_rate": 40.5,
+      "earliest_filing": "1990-12-21",
+      "latest_filing": "2025-09-20",
+      "flag": "warning"
+    },
+    {
+      "name": "Hoorfar",
+      "courts": [
+        "ksbk",
+        "moebk",
+        "mowbk"
+      ],
+      "court_count": 3,
+      "total_cases": 377,
+      "dismissed": 47,
+      "discharged": 313,
+      "pending": 0,
+      "dismissal_rate": 12.5,
+      "discharge_rate": 83.0,
+      "earliest_filing": "2009-08-04",
+      "latest_filing": "2022-05-11",
+      "flag": "normal"
+    },
+    {
+      "name": "Larsen",
+      "courts": [
+        "alnbk",
+        "ilnbk"
+      ],
+      "court_count": 2,
+      "total_cases": 369,
+      "dismissed": 0,
+      "discharged": 0,
+      "pending": 369,
+      "dismissal_rate": 0.0,
+      "discharge_rate": 0.0,
+      "earliest_filing": "1994-03-18",
+      "latest_filing": "2026-02-19",
+      "flag": "normal"
+    },
+    {
+      "name": "Bach",
+      "courts": [
+        "ilnbk"
+      ],
+      "court_count": 1,
+      "total_cases": 358,
+      "dismissed": 0,
+      "discharged": 0,
+      "pending": 358,
+      "dismissal_rate": 0.0,
+      "discharge_rate": 0.0,
+      "earliest_filing": "2001-09-13",
+      "latest_filing": "2026-01-29",
+      "flag": "normal"
+    },
+    {
+      "name": "White",
+      "courts": [
+        "flmbk",
+        "flnbk",
+        "flsbk",
+        "txnbk"
+      ],
+      "court_count": 4,
+      "total_cases": 358,
+      "dismissed": 112,
+      "discharged": 131,
+      "pending": 111,
+      "dismissal_rate": 31.3,
+      "discharge_rate": 36.6,
+      "earliest_filing": "2002-10-25",
+      "latest_filing": "2025-12-30",
+      "flag": "normal"
+    },
+    {
+      "name": "Hoffman",
+      "courts": [
+        "txsbk"
+      ],
+      "court_count": 1,
+      "total_cases": 281,
+      "dismissed": 45,
+      "discharged": 103,
+      "pending": 40,
+      "dismissal_rate": 16.0,
+      "discharge_rate": 36.7,
+      "earliest_filing": "1991-06-05",
+      "latest_filing": "2025-12-17",
+      "flag": "normal"
+    },
+    {
+      "name": "Moore",
+      "courts": [
+        "flmbk",
+        "flnbk",
+        "flsbk",
+        "insbk",
+        "nysbk"
+      ],
+      "court_count": 5,
+      "total_cases": 271,
+      "dismissed": 44,
+      "discharged": 73,
+      "pending": 153,
+      "dismissal_rate": 16.2,
+      "discharge_rate": 26.9,
+      "earliest_filing": "2006-02-23",
+      "latest_filing": "2026-01-20",
+      "flag": "normal"
+    },
+    {
+      "name": "Lusky",
+      "courts": [
+        "txsbk"
+      ],
+      "court_count": 1,
+      "total_cases": 269,
+      "dismissed": 35,
+      "discharged": 189,
+      "pending": 42,
+      "dismissal_rate": 13.0,
+      "discharge_rate": 70.3,
+      "earliest_filing": "2016-06-24",
+      "latest_filing": "2026-01-30",
+      "flag": "normal"
+    },
+    {
+      "name": "Bredehoft",
+      "courts": [
+        "ksbk",
+        "mowbk"
+      ],
+      "court_count": 2,
+      "total_cases": 262,
+      "dismissed": 25,
+      "discharged": 232,
+      "pending": 1,
+      "dismissal_rate": 9.5,
+      "discharge_rate": 88.5,
+      "earliest_filing": "1998-10-21",
+      "latest_filing": "2022-11-14",
+      "flag": "normal"
+    },
+    {
+      "name": "Gedbaw",
+      "courts": [
+        "ksbk",
+        "moebk",
+        "mowbk"
+      ],
+      "court_count": 3,
+      "total_cases": 255,
+      "dismissed": 46,
+      "discharged": 169,
+      "pending": 33,
+      "dismissal_rate": 18.0,
+      "discharge_rate": 66.3,
+      "earliest_filing": "2016-08-17",
+      "latest_filing": "2026-02-24",
+      "flag": "normal"
+    },
+    {
+      "name": "Kane",
+      "courts": [
+        "txnbk",
+        "vaebk"
+      ],
+      "court_count": 2,
+      "total_cases": 246,
+      "dismissed": 0,
+      "discharged": 0,
+      "pending": 246,
+      "dismissal_rate": 0.0,
+      "discharge_rate": 0.0,
+      "earliest_filing": "2009-03-30",
+      "latest_filing": "2026-01-25",
+      "flag": "normal"
+    },
+    {
+      "name": "(UST)",
+      "courts": [
+        "miebk"
+      ],
+      "court_count": 1,
+      "total_cases": 237,
+      "dismissed": 0,
+      "discharged": 0,
+      "pending": 237,
+      "dismissal_rate": 0.0,
+      "discharge_rate": 0.0,
+      "earliest_filing": "1979-10-17",
+      "latest_filing": "2026-02-04",
+      "flag": "normal"
+    },
+    {
+      "name": "Campbell",
+      "courts": [
+        "arebk",
+        "flmbk",
+        "flsbk",
+        "tnebk",
+        "txwbk"
+      ],
+      "court_count": 5,
+      "total_cases": 208,
+      "dismissed": 86,
+      "discharged": 72,
+      "pending": 10,
+      "dismissal_rate": 41.3,
+      "discharge_rate": 34.6,
+      "earliest_filing": "1986-12-15",
+      "latest_filing": "2025-12-09",
+      "flag": "warning"
+    },
+    {
+      "name": "CIBIK",
+      "courts": [
+        "paebk"
+      ],
+      "court_count": 1,
+      "total_cases": 200,
+      "dismissed": 0,
+      "discharged": 0,
+      "pending": 200,
+      "dismissal_rate": 0.0,
+      "discharge_rate": 0.0,
+      "earliest_filing": "2016-09-13",
+      "latest_filing": "2026-02-20",
+      "flag": "normal"
+    },
+    {
+      "name": "Clar",
+      "courts": [
+        "ilnbk"
+      ],
+      "court_count": 1,
+      "total_cases": 199,
+      "dismissed": 0,
+      "discharged": 0,
+      "pending": 199,
+      "dismissal_rate": 0.0,
+      "discharge_rate": 0.0,
+      "earliest_filing": "2001-04-20",
+      "latest_filing": "2026-02-06",
+      "flag": "normal"
+    },
+    {
+      "name": "Factor",
+      "courts": [
+        "ilnbk"
+      ],
+      "court_count": 1,
+      "total_cases": 198,
+      "dismissed": 0,
+      "discharged": 0,
+      "pending": 198,
+      "dismissal_rate": 0.0,
+      "discharge_rate": 0.0,
+      "earliest_filing": "1999-08-02",
+      "latest_filing": "2025-11-20",
+      "flag": "normal"
+    },
+    {
+      "name": "Rountree",
+      "courts": [
+        "ganbk"
+      ],
+      "court_count": 1,
+      "total_cases": 196,
+      "dismissed": 0,
+      "discharged": 0,
+      "pending": 196,
+      "dismissal_rate": 0.0,
+      "discharge_rate": 0.0,
+      "earliest_filing": "2006-01-17",
+      "latest_filing": "2026-02-23",
+      "flag": "normal"
+    },
+    {
+      "name": "Sasser",
+      "courts": [
+        "ncebk"
+      ],
+      "court_count": 1,
+      "total_cases": 191,
+      "dismissed": 0,
+      "discharged": 0,
+      "pending": 191,
+      "dismissal_rate": 0.0,
+      "discharge_rate": 0.0,
+      "earliest_filing": "2007-03-02",
+      "latest_filing": "2025-07-08",
+      "flag": "normal"
+    },
+    {
+      "name": "Lindauer",
+      "courts": [
+        "txnbk"
+      ],
+      "court_count": 1,
+      "total_cases": 187,
+      "dismissed": 0,
+      "discharged": 0,
+      "pending": 187,
+      "dismissal_rate": 0.0,
+      "discharge_rate": 0.0,
+      "earliest_filing": "1992-08-10",
+      "latest_filing": "2026-03-02",
+      "flag": "normal"
+    },
+    {
+      "name": "Helt",
+      "courts": [
+        "txnbk"
+      ],
+      "court_count": 1,
+      "total_cases": 186,
+      "dismissed": 0,
+      "discharged": 0,
+      "pending": 186,
+      "dismissal_rate": 0.0,
+      "discharge_rate": 0.0,
+      "earliest_filing": "2025-07-09",
+      "latest_filing": "2026-02-02",
+      "flag": "normal"
+    },
+    {
+      "name": "Corbin",
+      "courts": [
+        "ilnbk"
+      ],
+      "court_count": 1,
+      "total_cases": 185,
+      "dismissed": 0,
+      "discharged": 0,
+      "pending": 185,
+      "dismissal_rate": 0.0,
+      "discharge_rate": 0.0,
+      "earliest_filing": "2010-09-28",
+      "latest_filing": "2025-12-30",
+      "flag": "normal"
+    },
+    {
+      "name": "QUINN",
+      "courts": [
+        "paebk"
+      ],
+      "court_count": 1,
+      "total_cases": 185,
+      "dismissed": 0,
+      "discharged": 0,
+      "pending": 185,
+      "dismissal_rate": 0.0,
+      "discharge_rate": 0.0,
+      "earliest_filing": "2013-02-06",
+      "latest_filing": "2026-01-30",
+      "flag": "normal"
+    },
+    {
+      "name": "Ottenheimer,",
+      "courts": [
+        "ilnbk"
+      ],
+      "court_count": 1,
+      "total_cases": 184,
+      "dismissed": 0,
+      "discharged": 0,
+      "pending": 184,
+      "dismissal_rate": 0.0,
+      "discharge_rate": 0.0,
+      "earliest_filing": "2005-05-11",
+      "latest_filing": "2025-12-22",
+      "flag": "normal"
+    },
+    {
+      "name": "Leinart",
+      "courts": [
+        "txnbk"
+      ],
+      "court_count": 1,
+      "total_cases": 182,
+      "dismissed": 0,
+      "discharged": 0,
+      "pending": 182,
+      "dismissal_rate": 0.0,
+      "discharge_rate": 0.0,
+      "earliest_filing": "2005-10-15",
+      "latest_filing": "2026-03-18",
+      "flag": "normal"
+    },
+    {
+      "name": "Troxler",
+      "courts": [
+        "ncmbk"
+      ],
+      "court_count": 1,
+      "total_cases": 182,
+      "dismissed": 0,
+      "discharged": 0,
+      "pending": 182,
+      "dismissal_rate": 0.0,
+      "discharge_rate": 0.0,
+      "earliest_filing": "2015-02-05",
+      "latest_filing": "2026-02-05",
+      "flag": "normal"
+    },
+    {
+      "name": "ESQ",
+      "courts": [
+        "ilnbk"
+      ],
+      "court_count": 1,
+      "total_cases": 181,
+      "dismissed": 0,
+      "discharged": 0,
+      "pending": 181,
+      "dismissal_rate": 0.0,
+      "discharge_rate": 0.0,
+      "earliest_filing": "2006-12-11",
+      "latest_filing": "2026-01-29",
+      "flag": "normal"
+    },
+    {
+      "name": "Freydin",
+      "courts": [
+        "ilnbk"
+      ],
+      "court_count": 1,
+      "total_cases": 180,
+      "dismissed": 0,
+      "discharged": 0,
+      "pending": 180,
+      "dismissal_rate": 0.0,
+      "discharge_rate": 0.0,
+      "earliest_filing": "2009-04-22",
+      "latest_filing": "2025-11-06",
+      "flag": "normal"
+    },
+    {
+      "name": "Moss",
+      "courts": [
+        "scbk"
+      ],
+      "court_count": 1,
+      "total_cases": 180,
+      "dismissed": 0,
+      "discharged": 0,
+      "pending": 180,
+      "dismissal_rate": 0.0,
+      "discharge_rate": 0.0,
+      "earliest_filing": "2002-04-01",
+      "latest_filing": "2026-01-28",
+      "flag": "normal"
+    },
+    {
+      "name": "Stern",
+      "courts": [
+        "ilnbk"
+      ],
+      "court_count": 1,
+      "total_cases": 180,
+      "dismissed": 0,
+      "discharged": 0,
+      "pending": 180,
+      "dismissal_rate": 0.0,
+      "discharge_rate": 0.0,
+      "earliest_filing": "2004-11-08",
+      "latest_filing": "2026-01-22",
+      "flag": "normal"
+    },
+    {
+      "name": "Weidenbaum",
+      "courts": [
+        "ganbk"
+      ],
+      "court_count": 1,
+      "total_cases": 179,
+      "dismissed": 0,
+      "discharged": 0,
+      "pending": 179,
+      "dismissal_rate": 0.0,
+      "discharge_rate": 0.0,
+      "earliest_filing": "1997-06-23",
+      "latest_filing": "2026-02-12",
+      "flag": "normal"
+    },
+    {
+      "name": "OFFEN",
+      "courts": [
+        "paebk"
+      ],
+      "court_count": 1,
+      "total_cases": 178,
+      "dismissed": 0,
+      "discharged": 0,
+      "pending": 178,
+      "dismissal_rate": 0.0,
+      "discharge_rate": 0.0,
+      "earliest_filing": "1991-10-02",
+      "latest_filing": "2026-02-27",
+      "flag": "normal"
+    },
+    {
+      "name": "Zelazny",
+      "courts": [
+        "ilnbk"
+      ],
+      "court_count": 1,
+      "total_cases": 176,
+      "dismissed": 0,
+      "discharged": 0,
+      "pending": 176,
+      "dismissal_rate": 0.0,
+      "discharge_rate": 0.0,
+      "earliest_filing": "2005-10-13",
+      "latest_filing": "2025-12-30",
+      "flag": "normal"
+    },
+    {
+      "name": "Frego,",
+      "courts": [
+        "miebk"
+      ],
+      "court_count": 1,
+      "total_cases": 174,
+      "dismissed": 0,
+      "discharged": 0,
+      "pending": 174,
+      "dismissal_rate": 0.0,
+      "discharge_rate": 0.0,
+      "earliest_filing": "2010-06-11",
+      "latest_filing": "2025-03-03",
+      "flag": "normal"
+    },
+    {
+      "name": "LAPUTKA",
+      "courts": [
+        "paebk"
+      ],
+      "court_count": 1,
+      "total_cases": 174,
+      "dismissed": 0,
+      "discharged": 0,
+      "pending": 174,
+      "dismissal_rate": 0.0,
+      "discharge_rate": 0.0,
+      "earliest_filing": "2012-01-26",
+      "latest_filing": "2026-03-17",
+      "flag": "normal"
+    },
+    {
+      "name": "McElroy",
+      "courts": [
+        "tnwbk"
+      ],
+      "court_count": 1,
+      "total_cases": 173,
+      "dismissed": 0,
+      "discharged": 0,
+      "pending": 173,
+      "dismissal_rate": 0.0,
+      "discharge_rate": 0.0,
+      "earliest_filing": "1996-04-22",
+      "latest_filing": "2025-01-27",
+      "flag": "normal"
+    },
+    {
+      "name": "King",
+      "courts": [
+        "ganbk",
+        "ksbk",
+        "mowbk"
+      ],
+      "court_count": 3,
+      "total_cases": 172,
+      "dismissed": 0,
+      "discharged": 0,
+      "pending": 172,
+      "dismissal_rate": 0.0,
+      "discharge_rate": 0.0,
+      "earliest_filing": "1996-07-16",
+      "latest_filing": "2026-01-27",
+      "flag": "normal"
+    },
+    {
+      "name": "Modestas",
+      "courts": [
+        "ilnbk"
+      ],
+      "court_count": 1,
+      "total_cases": 172,
+      "dismissed": 0,
+      "discharged": 0,
+      "pending": 172,
+      "dismissal_rate": 0.0,
+      "discharge_rate": 0.0,
+      "earliest_filing": "2004-08-05",
+      "latest_filing": "2025-09-04",
+      "flag": "normal"
+    },
+    {
+      "name": "Press",
+      "courts": [
+        "vaebk"
+      ],
+      "court_count": 1,
+      "total_cases": 170,
+      "dismissed": 0,
+      "discharged": 0,
+      "pending": 170,
+      "dismissal_rate": 0.0,
+      "discharge_rate": 0.0,
+      "earliest_filing": "1998-07-30",
+      "latest_filing": "2026-02-02",
+      "flag": "normal"
+    },
+    {
+      "name": "Winter",
+      "courts": [
+        "ilnbk"
+      ],
+      "court_count": 1,
+      "total_cases": 170,
+      "dismissed": 0,
+      "discharged": 0,
+      "pending": 170,
+      "dismissal_rate": 0.0,
+      "discharge_rate": 0.0,
+      "earliest_filing": "2005-02-10",
+      "latest_filing": "2026-03-16",
+      "flag": "normal"
+    },
+    {
+      "name": "Zuckerberg",
+      "courts": [
+        "insbk"
+      ],
+      "court_count": 1,
+      "total_cases": 169,
+      "dismissed": 0,
+      "discharged": 0,
+      "pending": 169,
+      "dismissal_rate": 0.0,
+      "discharge_rate": 0.0,
+      "earliest_filing": "1994-10-13",
+      "latest_filing": "2025-11-17",
+      "flag": "normal"
+    },
+    {
+      "name": "Doyle",
+      "courts": [
+        "ilnbk"
+      ],
+      "court_count": 1,
+      "total_cases": 160,
+      "dismissed": 0,
+      "discharged": 0,
+      "pending": 160,
+      "dismissal_rate": 0.0,
+      "discharge_rate": 0.0,
+      "earliest_filing": "2008-05-25",
+      "latest_filing": "2021-04-30",
+      "flag": "normal"
+    },
+    {
+      "name": "Siegel",
+      "courts": [
+        "ilnbk"
+      ],
+      "court_count": 1,
+      "total_cases": 160,
+      "dismissed": 0,
+      "discharged": 0,
+      "pending": 160,
+      "dismissal_rate": 0.0,
+      "discharge_rate": 0.0,
+      "earliest_filing": "2008-06-18",
+      "latest_filing": "2026-03-04",
+      "flag": "normal"
+    },
+    {
+      "name": "Wilson",
+      "courts": [
+        "alnbk",
+        "ohnbk"
+      ],
+      "court_count": 2,
+      "total_cases": 160,
+      "dismissed": 17,
+      "discharged": 49,
+      "pending": 91,
+      "dismissal_rate": 10.6,
+      "discharge_rate": 30.6,
+      "earliest_filing": "2004-10-26",
+      "latest_filing": "2026-02-26",
+      "flag": "normal"
+    },
+    {
+      "name": "RUBIN",
+      "courts": [
+        "paebk"
+      ],
+      "court_count": 1,
+      "total_cases": 148,
+      "dismissed": 0,
+      "discharged": 0,
+      "pending": 148,
+      "dismissal_rate": 0.0,
+      "discharge_rate": 0.0,
+      "earliest_filing": "1990-05-29",
+      "latest_filing": "2026-01-12",
+      "flag": "normal"
+    },
+    {
+      "name": "Jackson",
+      "courts": [
+        "almbk",
+        "cacbk",
+        "canbk",
+        "flmbk",
+        "flsbk",
+        "txnbk",
+        "txwbk",
+        "utbk"
+      ],
+      "court_count": 8,
+      "total_cases": 147,
+      "dismissed": 32,
+      "discharged": 89,
+      "pending": 5,
+      "dismissal_rate": 21.8,
+      "discharge_rate": 60.5,
+      "earliest_filing": "1988-09-09",
+      "latest_filing": "2026-02-06",
+      "flag": "normal"
+    },
+    {
+      "name": "May",
+      "courts": [
+        "txsbk"
+      ],
+      "court_count": 1,
+      "total_cases": 146,
+      "dismissed": 29,
+      "discharged": 85,
+      "pending": 6,
+      "dismissal_rate": 19.9,
+      "discharge_rate": 58.2,
+      "earliest_filing": "1992-04-01",
+      "latest_filing": "2024-02-06",
+      "flag": "normal"
+    },
+    {
+      "name": "Frankel",
+      "courts": [
+        "vaebk"
+      ],
+      "court_count": 1,
+      "total_cases": 145,
+      "dismissed": 0,
+      "discharged": 0,
+      "pending": 145,
+      "dismissal_rate": 0.0,
+      "discharge_rate": 0.0,
+      "earliest_filing": "2003-03-28",
+      "latest_filing": "2025-12-12",
+      "flag": "normal"
+    },
+    {
+      "name": "SEITZER",
+      "courts": [
+        "paebk"
+      ],
+      "court_count": 1,
+      "total_cases": 142,
+      "dismissed": 0,
+      "discharged": 0,
+      "pending": 142,
+      "dismissal_rate": 0.0,
+      "discharge_rate": 0.0,
+      "earliest_filing": "2000-12-12",
+      "latest_filing": "2026-03-10",
+      "flag": "normal"
+    },
+    {
+      "name": "Cox",
+      "courts": [
+        "insbk",
+        "ohsbk"
+      ],
+      "court_count": 2,
+      "total_cases": 141,
+      "dismissed": 0,
+      "discharged": 0,
+      "pending": 141,
+      "dismissal_rate": 0.0,
+      "discharge_rate": 0.0,
+      "earliest_filing": "2007-12-10",
+      "latest_filing": "2025-11-03",
+      "flag": "normal"
+    },
+    {
+      "name": "PERLICK",
+      "courts": [
+        "paebk"
+      ],
+      "court_count": 1,
+      "total_cases": 140,
+      "dismissed": 0,
+      "discharged": 0,
+      "pending": 140,
+      "dismissal_rate": 0.0,
+      "discharge_rate": 0.0,
+      "earliest_filing": "2000-12-05",
+      "latest_filing": "2026-02-19",
+      "flag": "normal"
+    },
+    {
+      "name": "Jones",
+      "courts": [
+        "flsbk",
+        "nyebk",
+        "ohsbk",
+        "tnwbk"
+      ],
+      "court_count": 4,
+      "total_cases": 137,
+      "dismissed": 43,
+      "discharged": 52,
+      "pending": 35,
+      "dismissal_rate": 31.4,
+      "discharge_rate": 38.0,
+      "earliest_filing": "1989-09-25",
+      "latest_filing": "2026-02-14",
+      "flag": "normal"
+    },
+    {
+      "name": "Keyes",
+      "courts": [
+        "miebk"
+      ],
+      "court_count": 1,
+      "total_cases": 135,
+      "dismissed": 0,
+      "discharged": 0,
+      "pending": 135,
+      "dismissal_rate": 0.0,
+      "discharge_rate": 0.0,
+      "earliest_filing": "2009-04-10",
+      "latest_filing": "2026-03-04",
+      "flag": "normal"
+    },
+    {
+      "name": "Cardwell",
+      "courts": [
+        "ksbk",
+        "moebk",
+        "mowbk"
+      ],
+      "court_count": 3,
+      "total_cases": 131,
+      "dismissed": 7,
+      "discharged": 33,
+      "pending": 89,
+      "dismissal_rate": 5.3,
+      "discharge_rate": 25.2,
+      "earliest_filing": "2008-01-17",
+      "latest_filing": "2026-02-20",
+      "flag": "normal"
+    },
+    {
+      "name": "Geer",
+      "courts": [
+        "ganbk"
+      ],
+      "court_count": 1,
+      "total_cases": 131,
+      "dismissed": 0,
+      "discharged": 0,
+      "pending": 131,
+      "dismissal_rate": 0.0,
+      "discharge_rate": 0.0,
+      "earliest_filing": "2007-04-19",
+      "latest_filing": "2026-01-09",
+      "flag": "normal"
+    },
+    {
+      "name": "Jacobs",
+      "courts": [
+        "miebk"
+      ],
+      "court_count": 1,
+      "total_cases": 131,
+      "dismissed": 0,
+      "discharged": 0,
+      "pending": 131,
+      "dismissal_rate": 0.0,
+      "discharge_rate": 0.0,
+      "earliest_filing": "2003-04-25",
+      "latest_filing": "2026-02-19",
+      "flag": "normal"
+    },
+    {
+      "name": "Bernstein",
+      "courts": [
+        "mdbk"
+      ],
+      "court_count": 1,
+      "total_cases": 130,
+      "dismissed": 0,
+      "discharged": 0,
+      "pending": 130,
+      "dismissal_rate": 0.0,
+      "discharge_rate": 0.0,
+      "earliest_filing": "2007-10-15",
+      "latest_filing": "2026-01-22",
+      "flag": "normal"
+    },
+    {
+      "name": "Koehler",
+      "courts": [
+        "insbk"
+      ],
+      "court_count": 1,
+      "total_cases": 130,
+      "dismissed": 0,
+      "discharged": 0,
+      "pending": 130,
+      "dismissal_rate": 0.0,
+      "discharge_rate": 0.0,
+      "earliest_filing": "1995-10-30",
+      "latest_filing": "2025-11-10",
+      "flag": "normal"
+    },
+    {
+      "name": "Bektic",
+      "courts": [
+        "vaebk"
+      ],
+      "court_count": 1,
+      "total_cases": 127,
+      "dismissed": 0,
+      "discharged": 0,
+      "pending": 127,
+      "dismissal_rate": 0.0,
+      "discharge_rate": 0.0,
+      "earliest_filing": "2013-03-27",
+      "latest_filing": "2026-02-09",
+      "flag": "normal"
+    },
+    {
+      "name": "Honey",
+      "courts": [
+        "arebk",
+        "arwbk"
+      ],
+      "court_count": 2,
+      "total_cases": 127,
+      "dismissed": 0,
+      "discharged": 0,
+      "pending": 127,
+      "dismissal_rate": 0.0,
+      "discharge_rate": 0.0,
+      "earliest_filing": "2003-07-10",
+      "latest_filing": "2025-11-10",
+      "flag": "normal"
+    },
+    {
+      "name": "Harris",
+      "courts": [
+        "flsbk"
+      ],
+      "court_count": 1,
+      "total_cases": 125,
+      "dismissed": 10,
+      "discharged": 113,
+      "pending": 0,
+      "dismissal_rate": 8.0,
+      "discharge_rate": 90.4,
+      "earliest_filing": "2009-05-29",
+      "latest_filing": "2021-03-02",
+      "flag": "normal"
+    },
+    {
+      "name": "SADEK",
+      "courts": [
+        "paebk"
+      ],
+      "court_count": 1,
+      "total_cases": 121,
+      "dismissed": 0,
+      "discharged": 0,
+      "pending": 121,
+      "dismissal_rate": 0.0,
+      "discharge_rate": 0.0,
+      "earliest_filing": "2012-10-25",
+      "latest_filing": "2026-03-18",
+      "flag": "normal"
+    },
+    {
+      "name": "Tiede",
+      "courts": [
+        "ksbk",
+        "moebk",
+        "mowbk"
+      ],
+      "court_count": 3,
+      "total_cases": 121,
+      "dismissed": 4,
+      "discharged": 24,
+      "pending": 91,
+      "dismissal_rate": 3.3,
+      "discharge_rate": 19.8,
+      "earliest_filing": "2023-05-31",
+      "latest_filing": "2026-03-04",
+      "flag": "normal"
+    },
+    {
+      "name": "Esco",
+      "courts": [
+        "almbk"
+      ],
+      "court_count": 1,
+      "total_cases": 118,
+      "dismissed": 0,
+      "discharged": 0,
+      "pending": 118,
+      "dismissal_rate": 0.0,
+      "discharge_rate": 0.0,
+      "earliest_filing": "2008-11-17",
+      "latest_filing": "2026-02-09",
+      "flag": "normal"
+    },
+    {
+      "name": "Hinderleider",
+      "courts": [
+        "ganbk"
+      ],
+      "court_count": 1,
+      "total_cases": 118,
+      "dismissed": 0,
+      "discharged": 0,
+      "pending": 118,
+      "dismissal_rate": 0.0,
+      "discharge_rate": 0.0,
+      "earliest_filing": "2019-03-11",
+      "latest_filing": "2026-01-06",
+      "flag": "normal"
+    },
+    {
+      "name": "Rice",
+      "courts": [
+        "arebk",
+        "mdbk"
+      ],
+      "court_count": 2,
+      "total_cases": 117,
+      "dismissed": 0,
+      "discharged": 0,
+      "pending": 117,
+      "dismissal_rate": 0.0,
+      "discharge_rate": 0.0,
+      "earliest_filing": "1990-10-05",
+      "latest_filing": "2026-02-25",
+      "flag": "normal"
+    },
+    {
+      "name": "Smith",
+      "courts": [
+        "alnbk",
+        "ganbk",
+        "txnbk"
+      ],
+      "court_count": 3,
+      "total_cases": 117,
+      "dismissed": 0,
+      "discharged": 0,
+      "pending": 117,
+      "dismissal_rate": 0.0,
+      "discharge_rate": 0.0,
+      "earliest_filing": "2003-07-14",
+      "latest_filing": "2026-03-10",
+      "flag": "normal"
+    },
+    {
+      "name": "Weston",
+      "courts": [
+        "almbk"
+      ],
+      "court_count": 1,
+      "total_cases": 113,
+      "dismissed": 0,
+      "discharged": 0,
+      "pending": 113,
+      "dismissal_rate": 0.0,
+      "discharge_rate": 0.0,
+      "earliest_filing": "1999-04-13",
+      "latest_filing": "2025-11-07",
+      "flag": "normal"
+    },
+    {
+      "name": "Hurst",
+      "courts": [
+        "tnwbk"
+      ],
+      "court_count": 1,
+      "total_cases": 110,
+      "dismissed": 0,
+      "discharged": 0,
+      "pending": 110,
+      "dismissal_rate": 0.0,
+      "discharge_rate": 0.0,
+      "earliest_filing": "1999-03-24",
+      "latest_filing": "2025-08-19",
+      "flag": "normal"
+    },
+    {
+      "name": "Cook",
+      "courts": [
+        "ncebk"
+      ],
+      "court_count": 1,
+      "total_cases": 107,
+      "dismissed": 0,
+      "discharged": 0,
+      "pending": 107,
+      "dismissal_rate": 0.0,
+      "discharge_rate": 0.0,
+      "earliest_filing": "2010-11-04",
+      "latest_filing": "2026-02-25",
+      "flag": "normal"
+    },
+    {
+      "name": "Whitten",
+      "courts": [
+        "innbk"
+      ],
+      "court_count": 1,
+      "total_cases": 105,
+      "dismissed": 0,
+      "discharged": 0,
+      "pending": 105,
+      "dismissal_rate": 0.0,
+      "discharge_rate": 0.0,
+      "earliest_filing": "1998-05-28",
+      "latest_filing": "2025-12-23",
+      "flag": "normal"
+    },
+    {
+      "name": "Crockett",
+      "courts": [
+        "alnbk"
+      ],
+      "court_count": 1,
+      "total_cases": 103,
+      "dismissed": 0,
+      "discharged": 0,
+      "pending": 103,
+      "dismissal_rate": 0.0,
+      "discharge_rate": 0.0,
+      "earliest_filing": "2004-01-20",
+      "latest_filing": "2025-06-20",
+      "flag": "normal"
+    },
+    {
+      "name": "Meredith,",
+      "courts": [
+        "scbk"
+      ],
+      "court_count": 1,
+      "total_cases": 103,
+      "dismissed": 0,
+      "discharged": 0,
+      "pending": 103,
+      "dismissal_rate": 0.0,
+      "discharge_rate": 0.0,
+      "earliest_filing": "2008-05-02",
+      "latest_filing": "2025-09-24",
+      "flag": "normal"
+    },
+    {
+      "name": "Clayson",
+      "courts": [
+        "miebk"
+      ],
+      "court_count": 1,
+      "total_cases": 100,
+      "dismissed": 0,
+      "discharged": 0,
+      "pending": 100,
+      "dismissal_rate": 0.0,
+      "discharge_rate": 0.0,
+      "earliest_filing": "2008-05-09",
+      "latest_filing": "2025-11-20",
+      "flag": "normal"
+    },
+    {
+      "name": "Matthews",
+      "courts": [
+        "scbk"
+      ],
+      "court_count": 1,
+      "total_cases": 99,
+      "dismissed": 0,
+      "discharged": 0,
+      "pending": 99,
+      "dismissal_rate": 0.0,
+      "discharge_rate": 0.0,
+      "earliest_filing": "2009-09-17",
+      "latest_filing": "2026-02-19",
+      "flag": "normal"
+    },
+    {
+      "name": "SCHANNE",
+      "courts": [
+        "paebk"
+      ],
+      "court_count": 1,
+      "total_cases": 98,
+      "dismissed": 0,
+      "discharged": 0,
+      "pending": 98,
+      "dismissal_rate": 0.0,
+      "discharge_rate": 0.0,
+      "earliest_filing": "2014-04-25",
+      "latest_filing": "2026-02-18",
+      "flag": "normal"
+    },
+    {
+      "name": "Cimmino",
+      "courts": [
+        "miebk"
+      ],
+      "court_count": 1,
+      "total_cases": 97,
+      "dismissed": 0,
+      "discharged": 0,
+      "pending": 97,
+      "dismissal_rate": 0.0,
+      "discharge_rate": 0.0,
+      "earliest_filing": "2004-01-30",
+      "latest_filing": "2026-01-20",
+      "flag": "normal"
+    },
+    {
+      "name": "Klimjack",
+      "courts": [
+        "almbk"
+      ],
+      "court_count": 1,
+      "total_cases": 97,
+      "dismissed": 0,
+      "discharged": 0,
+      "pending": 97,
+      "dismissal_rate": 0.0,
+      "discharge_rate": 0.0,
+      "earliest_filing": "2013-03-07",
+      "latest_filing": "2026-01-24",
+      "flag": "normal"
+    },
+    {
+      "name": "Pool",
+      "courts": [
+        "almbk"
+      ],
+      "court_count": 1,
+      "total_cases": 97,
+      "dismissed": 0,
+      "discharged": 0,
+      "pending": 97,
+      "dismissal_rate": 0.0,
+      "discharge_rate": 0.0,
+      "earliest_filing": "2009-03-02",
+      "latest_filing": "2026-01-16",
+      "flag": "normal"
+    },
+    {
+      "name": "YOUNG",
+      "courts": [
+        "paebk"
+      ],
+      "court_count": 1,
+      "total_cases": 96,
+      "dismissed": 0,
+      "discharged": 0,
+      "pending": 96,
+      "dismissal_rate": 0.0,
+      "discharge_rate": 0.0,
+      "earliest_filing": "2004-09-08",
+      "latest_filing": "2026-03-17",
+      "flag": "normal"
+    },
+    {
+      "name": "Paulsen",
+      "courts": [
+        "ilnbk"
+      ],
+      "court_count": 1,
+      "total_cases": 93,
+      "dismissed": 0,
+      "discharged": 0,
+      "pending": 93,
+      "dismissal_rate": 0.0,
+      "discharge_rate": 0.0,
+      "earliest_filing": "2008-12-12",
+      "latest_filing": "2025-12-22",
+      "flag": "normal"
+    },
+    {
+      "name": "Cooper",
+      "courts": [
+        "scbk"
+      ],
+      "court_count": 1,
+      "total_cases": 92,
+      "dismissed": 0,
+      "discharged": 0,
+      "pending": 92,
+      "dismissal_rate": 0.0,
+      "discharge_rate": 0.0,
+      "earliest_filing": "2005-09-09",
+      "latest_filing": "2026-01-12",
+      "flag": "normal"
+    },
+    {
+      "name": "DeMarco",
+      "courts": [
+        "txnbk"
+      ],
+      "court_count": 1,
+      "total_cases": 92,
+      "dismissed": 0,
+      "discharged": 0,
+      "pending": 92,
+      "dismissal_rate": 0.0,
+      "discharge_rate": 0.0,
+      "earliest_filing": "2011-02-28",
+      "latest_filing": "2026-01-30",
+      "flag": "normal"
+    },
+    {
+      "name": "Erdberg",
+      "courts": [
+        "alnbk"
+      ],
+      "court_count": 1,
+      "total_cases": 89,
+      "dismissed": 0,
+      "discharged": 0,
+      "pending": 89,
+      "dismissal_rate": 0.0,
+      "discharge_rate": 0.0,
+      "earliest_filing": "1988-02-16",
+      "latest_filing": "2026-02-05",
+      "flag": "normal"
+    },
+    {
+      "name": "Poston",
+      "courts": [
+        "almbk",
+        "alnbk",
+        "scbk"
+      ],
+      "court_count": 3,
+      "total_cases": 89,
+      "dismissed": 0,
+      "discharged": 0,
+      "pending": 89,
+      "dismissal_rate": 0.0,
+      "discharge_rate": 0.0,
+      "earliest_filing": "2009-03-23",
+      "latest_filing": "2026-02-27",
+      "flag": "normal"
+    },
+    {
+      "name": "Entelisano",
+      "courts": [
+        "alnbk"
+      ],
+      "court_count": 1,
+      "total_cases": 88,
+      "dismissed": 0,
+      "discharged": 0,
+      "pending": 88,
+      "dismissal_rate": 0.0,
+      "discharge_rate": 0.0,
+      "earliest_filing": "2005-05-17",
+      "latest_filing": "2025-12-22",
+      "flag": "normal"
+    },
+    {
+      "name": "Vetter",
+      "courts": [
+        "mdbk"
+      ],
+      "court_count": 1,
+      "total_cases": 88,
+      "dismissed": 0,
+      "discharged": 0,
+      "pending": 88,
+      "dismissal_rate": 0.0,
+      "discharge_rate": 0.0,
+      "earliest_filing": "2003-02-10",
+      "latest_filing": "2025-09-30",
+      "flag": "normal"
+    },
+    {
+      "name": "Conway",
+      "courts": [
+        "vaebk"
+      ],
+      "court_count": 1,
+      "total_cases": 83,
+      "dismissed": 0,
+      "discharged": 0,
+      "pending": 83,
+      "dismissal_rate": 0.0,
+      "discharge_rate": 0.0,
+      "earliest_filing": "2008-12-30",
+      "latest_filing": "2026-01-22",
+      "flag": "normal"
+    },
+    {
+      "name": "Osment",
+      "courts": [
+        "miebk"
+      ],
+      "court_count": 1,
+      "total_cases": 81,
+      "dismissed": 0,
+      "discharged": 0,
+      "pending": 81,
+      "dismissal_rate": 0.0,
+      "discharge_rate": 0.0,
+      "earliest_filing": "2008-09-08",
+      "latest_filing": "2026-02-17",
+      "flag": "normal"
+    },
+    {
+      "name": "Searns",
+      "courts": [
+        "cobk",
+        "ilnbk",
+        "ksbk"
+      ],
+      "court_count": 3,
+      "total_cases": 81,
+      "dismissed": 0,
+      "discharged": 80,
+      "pending": 0,
+      "dismissal_rate": 0.0,
+      "discharge_rate": 98.8,
+      "earliest_filing": "1997-03-11",
+      "latest_filing": "2013-12-04",
+      "flag": "normal"
+    },
+    {
+      "name": "Nason,",
+      "courts": [
+        "ganbk"
+      ],
+      "court_count": 1,
+      "total_cases": 79,
+      "dismissed": 0,
+      "discharged": 0,
+      "pending": 79,
+      "dismissal_rate": 0.0,
+      "discharge_rate": 0.0,
+      "earliest_filing": "2000-01-28",
+      "latest_filing": "2026-01-22",
+      "flag": "normal"
+    },
+    {
+      "name": "Marr",
+      "courts": [
+        "ganbk"
+      ],
+      "court_count": 1,
+      "total_cases": 77,
+      "dismissed": 0,
+      "discharged": 0,
+      "pending": 77,
+      "dismissal_rate": 0.0,
+      "discharge_rate": 0.0,
+      "earliest_filing": "2002-12-04",
+      "latest_filing": "2026-02-09",
+      "flag": "normal"
+    },
+    {
+      "name": "Pray",
+      "courts": [
+        "arebk"
+      ],
+      "court_count": 1,
+      "total_cases": 77,
+      "dismissed": 0,
+      "discharged": 0,
+      "pending": 77,
+      "dismissal_rate": 0.0,
+      "discharge_rate": 0.0,
+      "earliest_filing": "2001-02-12",
+      "latest_filing": "2025-03-25",
+      "flag": "normal"
+    },
+    {
+      "name": "Arndt",
+      "courts": [
+        "ohsbk"
+      ],
+      "court_count": 1,
+      "total_cases": 76,
+      "dismissed": 0,
+      "discharged": 0,
+      "pending": 76,
+      "dismissal_rate": 0.0,
+      "discharge_rate": 0.0,
+      "earliest_filing": "1998-10-01",
+      "latest_filing": "2025-12-24",
+      "flag": "normal"
+    },
+    {
+      "name": "Ball",
+      "courts": [
+        "innbk"
+      ],
+      "court_count": 1,
+      "total_cases": 75,
+      "dismissed": 0,
+      "discharged": 0,
+      "pending": 75,
+      "dismissal_rate": 0.0,
+      "discharge_rate": 0.0,
+      "earliest_filing": "2008-08-12",
+      "latest_filing": "2025-09-10",
+      "flag": "normal"
+    },
+    {
+      "name": "Shapiro",
+      "courts": [
+        "miebk"
+      ],
+      "court_count": 1,
+      "total_cases": 75,
+      "dismissed": 0,
+      "discharged": 0,
+      "pending": 75,
+      "dismissal_rate": 0.0,
+      "discharge_rate": 0.0,
+      "earliest_filing": "1997-10-03",
+      "latest_filing": "2024-12-18",
+      "flag": "normal"
+    },
+    {
+      "name": "Sandler",
+      "courts": [
+        "vaebk"
+      ],
+      "court_count": 1,
+      "total_cases": 74,
+      "dismissed": 0,
+      "discharged": 0,
+      "pending": 74,
+      "dismissal_rate": 0.0,
+      "discharge_rate": 0.0,
+      "earliest_filing": "2013-03-07",
+      "latest_filing": "2026-02-04",
+      "flag": "normal"
+    },
+    {
+      "name": "Hendren",
+      "courts": [
+        "ncebk"
+      ],
+      "court_count": 1,
+      "total_cases": 70,
+      "dismissed": 0,
+      "discharged": 0,
+      "pending": 70,
+      "dismissal_rate": 0.0,
+      "discharge_rate": 0.0,
+      "earliest_filing": "2007-11-12",
+      "latest_filing": "2026-03-16",
+      "flag": "normal"
+    },
+    {
+      "name": "Medley,",
+      "courts": [
+        "ganbk"
+      ],
+      "court_count": 1,
+      "total_cases": 69,
+      "dismissed": 0,
+      "discharged": 0,
+      "pending": 69,
+      "dismissal_rate": 0.0,
+      "discharge_rate": 0.0,
+      "earliest_filing": "2013-07-02",
+      "latest_filing": "2026-01-26",
+      "flag": "normal"
+    },
+    {
+      "name": "Ramsdell",
+      "courts": [
+        "vaebk"
+      ],
+      "court_count": 1,
+      "total_cases": 69,
+      "dismissed": 0,
+      "discharged": 0,
+      "pending": 69,
+      "dismissal_rate": 0.0,
+      "discharge_rate": 0.0,
+      "earliest_filing": "2005-10-14",
+      "latest_filing": "2025-11-18",
+      "flag": "normal"
+    },
+    {
+      "name": "Barr",
+      "courts": [
+        "scbk"
+      ],
+      "court_count": 1,
+      "total_cases": 68,
+      "dismissed": 0,
+      "discharged": 0,
+      "pending": 68,
+      "dismissal_rate": 0.0,
+      "discharge_rate": 0.0,
+      "earliest_filing": "2010-06-11",
+      "latest_filing": "2024-11-19",
+      "flag": "normal"
+    },
+    {
+      "name": "Bradford",
+      "courts": [
+        "ncebk"
+      ],
+      "court_count": 1,
+      "total_cases": 67,
+      "dismissed": 0,
+      "discharged": 0,
+      "pending": 67,
+      "dismissal_rate": 0.0,
+      "discharge_rate": 0.0,
+      "earliest_filing": "2004-07-02",
+      "latest_filing": "2026-01-13",
+      "flag": "normal"
+    },
+    {
+      "name": "Maples",
+      "courts": [
+        "alnbk"
+      ],
+      "court_count": 1,
+      "total_cases": 67,
+      "dismissed": 0,
+      "discharged": 0,
+      "pending": 67,
+      "dismissal_rate": 0.0,
+      "discharge_rate": 0.0,
+      "earliest_filing": "1985-03-14",
+      "latest_filing": "2026-03-05",
+      "flag": "normal"
+    },
+    {
+      "name": "Nerderman",
+      "courts": [
+        "kyebk"
+      ],
+      "court_count": 1,
+      "total_cases": 67,
+      "dismissed": 0,
+      "discharged": 0,
+      "pending": 67,
+      "dismissal_rate": 0.0,
+      "discharge_rate": 0.0,
+      "earliest_filing": "2002-11-13",
+      "latest_filing": "2025-06-16",
+      "flag": "normal"
+    },
+    {
+      "name": "Teel,",
+      "courts": [
+        "tnwbk"
+      ],
+      "court_count": 1,
+      "total_cases": 66,
+      "dismissed": 0,
+      "discharged": 0,
+      "pending": 66,
+      "dismissal_rate": 0.0,
+      "discharge_rate": 0.0,
+      "earliest_filing": "2005-09-29",
+      "latest_filing": "2025-10-16",
+      "flag": "normal"
+    },
+    {
+      "name": "Coutinho",
+      "courts": [
+        "ohsbk"
+      ],
+      "court_count": 1,
+      "total_cases": 63,
+      "dismissed": 0,
+      "discharged": 0,
+      "pending": 63,
+      "dismissal_rate": 0.0,
+      "discharge_rate": 0.0,
+      "earliest_filing": "2005-05-11",
+      "latest_filing": "2025-12-09",
+      "flag": "normal"
+    },
+    {
+      "name": "Frost",
+      "courts": [
+        "ncebk"
+      ],
+      "court_count": 1,
+      "total_cases": 60,
+      "dismissed": 0,
+      "discharged": 0,
+      "pending": 60,
+      "dismissal_rate": 0.0,
+      "discharge_rate": 0.0,
+      "earliest_filing": "2010-08-23",
+      "latest_filing": "2025-10-31",
+      "flag": "normal"
+    },
+    {
+      "name": "Havner",
+      "courts": [
+        "arebk",
+        "arwbk"
+      ],
+      "court_count": 2,
+      "total_cases": 60,
+      "dismissed": 0,
+      "discharged": 0,
+      "pending": 60,
+      "dismissal_rate": 0.0,
+      "discharge_rate": 0.0,
+      "earliest_filing": "2000-12-28",
+      "latest_filing": "2026-01-10",
+      "flag": "normal"
+    },
+    {
+      "name": "Heard",
+      "courts": [
+        "alnbk"
+      ],
+      "court_count": 1,
+      "total_cases": 60,
+      "dismissed": 0,
+      "discharged": 0,
+      "pending": 60,
+      "dismissal_rate": 0.0,
+      "discharge_rate": 0.0,
+      "earliest_filing": "2008-04-03",
+      "latest_filing": "2025-11-04",
+      "flag": "normal"
+    },
+    {
+      "name": "Shaw",
+      "courts": [
+        "vaebk"
+      ],
+      "court_count": 1,
+      "total_cases": 60,
+      "dismissed": 0,
+      "discharged": 0,
+      "pending": 60,
+      "dismissal_rate": 0.0,
+      "discharge_rate": 0.0,
+      "earliest_filing": "2011-10-03",
+      "latest_filing": "2025-11-10",
+      "flag": "normal"
+    },
+    {
+      "name": "Vandiver,",
+      "courts": [
+        "tnwbk"
+      ],
+      "court_count": 1,
+      "total_cases": 60,
+      "dismissed": 0,
+      "discharged": 0,
+      "pending": 60,
+      "dismissal_rate": 0.0,
+      "discharge_rate": 0.0,
+      "earliest_filing": "2000-06-27",
+      "latest_filing": "2025-08-18",
+      "flag": "normal"
+    },
+    {
+      "name": "Goetz",
+      "courts": [
+        "vaebk"
+      ],
+      "court_count": 1,
+      "total_cases": 59,
+      "dismissed": 0,
+      "discharged": 0,
+      "pending": 59,
+      "dismissal_rate": 0.0,
+      "discharge_rate": 0.0,
+      "earliest_filing": "2010-11-17",
+      "latest_filing": "2026-02-24",
+      "flag": "normal"
+    },
+    {
+      "name": "Kermode",
+      "courts": [
+        "kyebk"
+      ],
+      "court_count": 1,
+      "total_cases": 59,
+      "dismissed": 0,
+      "discharged": 0,
+      "pending": 59,
+      "dismissal_rate": 0.0,
+      "discharge_rate": 0.0,
+      "earliest_filing": "2005-05-13",
+      "latest_filing": "2025-05-12",
+      "flag": "normal"
+    },
+    {
+      "name": "Coyle",
+      "courts": [
+        "mdbk"
+      ],
+      "court_count": 1,
+      "total_cases": 58,
+      "dismissed": 0,
+      "discharged": 0,
+      "pending": 58,
+      "dismissal_rate": 0.0,
+      "discharge_rate": 0.0,
+      "earliest_filing": "2011-11-30",
+      "latest_filing": "2025-12-16",
+      "flag": "normal"
+    },
+    {
+      "name": "Golden",
+      "courts": [
+        "innbk"
+      ],
+      "court_count": 1,
+      "total_cases": 58,
+      "dismissed": 0,
+      "discharged": 0,
+      "pending": 58,
+      "dismissal_rate": 0.0,
+      "discharge_rate": 0.0,
+      "earliest_filing": "2011-01-29",
+      "latest_filing": "2025-12-30",
+      "flag": "normal"
+    },
+    {
+      "name": "Ominsky",
+      "courts": [
+        "mdbk"
+      ],
+      "court_count": 1,
+      "total_cases": 58,
+      "dismissed": 0,
+      "discharged": 0,
+      "pending": 58,
+      "dismissal_rate": 0.0,
+      "discharge_rate": 0.0,
+      "earliest_filing": "2009-06-08",
+      "latest_filing": "2025-12-29",
+      "flag": "normal"
+    },
+    {
+      "name": "Grainger",
+      "courts": [
+        "almbk"
+      ],
+      "court_count": 1,
+      "total_cases": 57,
+      "dismissed": 0,
+      "discharged": 0,
+      "pending": 57,
+      "dismissal_rate": 0.0,
+      "discharge_rate": 0.0,
+      "earliest_filing": "2013-08-19",
+      "latest_filing": "2026-03-06",
+      "flag": "normal"
+    },
+    {
+      "name": "Sellers",
+      "courts": [
+        "almbk"
+      ],
+      "court_count": 1,
+      "total_cases": 57,
+      "dismissed": 0,
+      "discharged": 0,
+      "pending": 57,
+      "dismissal_rate": 0.0,
+      "discharge_rate": 0.0,
+      "earliest_filing": "2001-11-15",
+      "latest_filing": "2025-11-11",
+      "flag": "normal"
+    },
+    {
+      "name": "Chatz",
+      "courts": [
+        "ilnbk"
+      ],
+      "court_count": 1,
+      "total_cases": 56,
+      "dismissed": 0,
+      "discharged": 0,
+      "pending": 56,
+      "dismissal_rate": 0.0,
+      "discharge_rate": 0.0,
+      "earliest_filing": "1999-11-15",
+      "latest_filing": "2026-02-27",
+      "flag": "normal"
+    },
+    {
+      "name": "Janczak",
+      "courts": [
+        "ilnbk"
+      ],
+      "court_count": 1,
+      "total_cases": 56,
+      "dismissed": 0,
+      "discharged": 0,
+      "pending": 56,
+      "dismissal_rate": 0.0,
+      "discharge_rate": 0.0,
+      "earliest_filing": "2013-05-15",
+      "latest_filing": "2026-01-12",
+      "flag": "normal"
+    },
+    {
+      "name": "Nesse",
+      "courts": [
+        "mdbk"
+      ],
+      "court_count": 1,
+      "total_cases": 56,
+      "dismissed": 0,
+      "discharged": 0,
+      "pending": 56,
+      "dismissal_rate": 0.0,
+      "discharge_rate": 0.0,
+      "earliest_filing": "1995-07-31",
+      "latest_filing": "2025-10-08",
+      "flag": "normal"
+    },
+    {
+      "name": "Whitehurst,",
+      "courts": [
+        "vaebk"
+      ],
+      "court_count": 1,
+      "total_cases": 56,
+      "dismissed": 0,
+      "discharged": 0,
+      "pending": 56,
+      "dismissal_rate": 0.0,
+      "discharge_rate": 0.0,
+      "earliest_filing": "2001-02-05",
+      "latest_filing": "2025-12-08",
+      "flag": "normal"
+    },
+    {
+      "name": "Adams",
+      "courts": [
+        "arebk",
+        "ksbk",
+        "kyebk"
+      ],
+      "court_count": 3,
+      "total_cases": 55,
+      "dismissed": 0,
+      "discharged": 0,
+      "pending": 55,
+      "dismissal_rate": 0.0,
+      "discharge_rate": 0.0,
+      "earliest_filing": "2001-08-17",
+      "latest_filing": "2026-01-28",
+      "flag": "normal"
+    },
+    {
+      "name": "Shuster",
+      "courts": [
+        "txnbk"
+      ],
+      "court_count": 1,
+      "total_cases": 55,
+      "dismissed": 0,
+      "discharged": 0,
+      "pending": 55,
+      "dismissal_rate": 0.0,
+      "discharge_rate": 0.0,
+      "earliest_filing": "2016-03-09",
+      "latest_filing": "2026-01-19",
+      "flag": "normal"
+    },
+    {
+      "name": "Oliver",
+      "courts": [
+        "ncebk"
+      ],
+      "court_count": 1,
+      "total_cases": 54,
+      "dismissed": 0,
+      "discharged": 0,
+      "pending": 54,
+      "dismissal_rate": 0.0,
+      "discharge_rate": 0.0,
+      "earliest_filing": "2006-09-01",
+      "latest_filing": "2025-12-16",
+      "flag": "normal"
+    },
+    {
+      "name": "Simms",
+      "courts": [
+        "kyebk"
+      ],
+      "court_count": 1,
+      "total_cases": 54,
+      "dismissed": 0,
+      "discharged": 0,
+      "pending": 54,
+      "dismissal_rate": 0.0,
+      "discharge_rate": 0.0,
+      "earliest_filing": "2000-05-16",
+      "latest_filing": "2025-11-21",
+      "flag": "normal"
+    },
+    {
+      "name": "Spector",
+      "courts": [
+        "txnbk"
+      ],
+      "court_count": 1,
+      "total_cases": 54,
+      "dismissed": 0,
+      "discharged": 0,
+      "pending": 54,
+      "dismissal_rate": 0.0,
+      "discharge_rate": 0.0,
+      "earliest_filing": "2001-12-21",
+      "latest_filing": "2025-12-09",
+      "flag": "normal"
+    },
+    {
+      "name": "Coleman",
+      "courts": [
+        "arebk",
+        "ganbk"
+      ],
+      "court_count": 2,
+      "total_cases": 53,
+      "dismissed": 0,
+      "discharged": 0,
+      "pending": 53,
+      "dismissal_rate": 0.0,
+      "discharge_rate": 0.0,
+      "earliest_filing": "2008-05-02",
+      "latest_filing": "2026-01-26",
+      "flag": "normal"
+    },
+    {
+      "name": "Ingrum,",
+      "courts": [
+        "almbk"
+      ],
+      "court_count": 1,
+      "total_cases": 53,
+      "dismissed": 0,
+      "discharged": 0,
+      "pending": 53,
+      "dismissal_rate": 0.0,
+      "discharge_rate": 0.0,
+      "earliest_filing": "2009-01-29",
+      "latest_filing": "2025-11-18",
+      "flag": "normal"
+    },
+    {
+      "name": "Atkinson",
+      "courts": [
+        "kyebk"
+      ],
+      "court_count": 1,
+      "total_cases": 52,
+      "dismissed": 0,
+      "discharged": 0,
+      "pending": 52,
+      "dismissal_rate": 0.0,
+      "discharge_rate": 0.0,
+      "earliest_filing": "2005-09-20",
+      "latest_filing": "2025-07-03",
+      "flag": "normal"
+    },
+    {
+      "name": "Donaldson",
+      "courts": [
+        "almbk"
+      ],
+      "court_count": 1,
+      "total_cases": 52,
+      "dismissed": 0,
+      "discharged": 0,
+      "pending": 52,
+      "dismissal_rate": 0.0,
+      "discharge_rate": 0.0,
+      "earliest_filing": "2001-03-20",
+      "latest_filing": "2025-12-08",
+      "flag": "normal"
+    },
+    {
+      "name": "Everett",
+      "courts": [
+        "txnbk"
+      ],
+      "court_count": 1,
+      "total_cases": 52,
+      "dismissed": 0,
+      "discharged": 0,
+      "pending": 52,
+      "dismissal_rate": 0.0,
+      "discharge_rate": 0.0,
+      "earliest_filing": "2016-05-31",
+      "latest_filing": "2026-02-03",
+      "flag": "normal"
+    },
+    {
+      "name": "Cope",
+      "courts": [
+        "ohsbk"
+      ],
+      "court_count": 1,
+      "total_cases": 51,
+      "dismissed": 0,
+      "discharged": 0,
+      "pending": 51,
+      "dismissal_rate": 0.0,
+      "discharge_rate": 0.0,
+      "earliest_filing": "2013-12-18",
+      "latest_filing": "2025-06-25",
+      "flag": "normal"
+    },
+    {
+      "name": "LEE",
+      "courts": [
+        "paebk"
+      ],
+      "court_count": 1,
+      "total_cases": 51,
+      "dismissed": 0,
+      "discharged": 0,
+      "pending": 51,
+      "dismissal_rate": 0.0,
+      "discharge_rate": 0.0,
+      "earliest_filing": "2014-02-25",
+      "latest_filing": "2025-09-08",
+      "flag": "normal"
+    },
+    {
+      "name": "Seese",
+      "courts": [
+        "innbk"
+      ],
+      "court_count": 1,
+      "total_cases": 51,
+      "dismissed": 0,
+      "discharged": 0,
+      "pending": 51,
+      "dismissal_rate": 0.0,
+      "discharge_rate": 0.0,
+      "earliest_filing": "2008-08-11",
+      "latest_filing": "2025-08-12",
+      "flag": "normal"
+    },
+    {
+      "name": "Stahl,",
+      "courts": [
+        "mdbk"
+      ],
+      "court_count": 1,
+      "total_cases": 50,
+      "dismissed": 0,
+      "discharged": 0,
+      "pending": 50,
+      "dismissal_rate": 0.0,
+      "discharge_rate": 0.0,
+      "earliest_filing": "2012-12-04",
+      "latest_filing": "2026-01-30",
+      "flag": "normal"
+    },
+    {
+      "name": "Tolar",
+      "courts": [
+        "almbk"
+      ],
+      "court_count": 1,
+      "total_cases": 50,
+      "dismissed": 0,
+      "discharged": 0,
+      "pending": 50,
+      "dismissal_rate": 0.0,
+      "discharge_rate": 0.0,
+      "earliest_filing": "2012-07-30",
+      "latest_filing": "2026-01-30",
+      "flag": "normal"
+    }
+  ],
+  "districts": [
+    {
+      "court_code": "flsbk",
+      "total_cases": 43932,
+      "dismissed": 11826,
+      "discharged": 28149,
+      "dismissal_rate": 26.9,
+      "vs_national": 3.2,
+      "attorneys_tracked": 30
+    },
+    {
+      "court_code": "mowbk",
+      "total_cases": 42275,
+      "dismissed": 7778,
+      "discharged": 28976,
+      "dismissal_rate": 18.4,
+      "vs_national": -5.3,
+      "attorneys_tracked": 100
+    },
+    {
+      "court_code": "ksbk",
+      "total_cases": 41718,
+      "dismissed": 4720,
+      "discharged": 29384,
+      "dismissal_rate": 11.3,
+      "vs_national": -12.4,
+      "attorneys_tracked": 130
+    },
+    {
+      "court_code": "txsbk",
+      "total_cases": 30412,
+      "dismissed": 11241,
+      "discharged": 17004,
+      "dismissal_rate": 37.0,
+      "vs_national": 13.3,
+      "attorneys_tracked": 28
+    },
+    {
+      "court_code": "ilnbk",
+      "total_cases": 10280,
+      "dismissed": 1333,
+      "discharged": 5513,
+      "dismissal_rate": 13.0,
+      "vs_national": -10.7,
+      "attorneys_tracked": 31
+    },
+    {
+      "court_code": "cacbk",
+      "total_cases": 5938,
+      "dismissed": 561,
+      "discharged": 5252,
+      "dismissal_rate": 9.4,
+      "vs_national": -14.3,
+      "attorneys_tracked": 14
+    },
+    {
+      "court_code": "flmbk",
+      "total_cases": 5699,
+      "dismissed": 1280,
+      "discharged": 3525,
+      "dismissal_rate": 22.5,
+      "vs_national": -1.2,
+      "attorneys_tracked": 24
+    },
+    {
+      "court_code": "moebk",
+      "total_cases": 4526,
+      "dismissed": 562,
+      "discharged": 776,
+      "dismissal_rate": 12.4,
+      "vs_national": -11.3,
+      "attorneys_tracked": 63
+    },
+    {
+      "court_code": "ohnbk",
+      "total_cases": 4214,
+      "dismissed": 597,
+      "discharged": 3234,
+      "dismissal_rate": 14.2,
+      "vs_national": -9.5,
+      "attorneys_tracked": 8
+    },
+    {
+      "court_code": "insbk",
+      "total_cases": 2119,
+      "dismissed": 140,
+      "discharged": 653,
+      "dismissal_rate": 6.6,
+      "vs_national": -17.1,
+      "attorneys_tracked": 22
+    },
+    {
+      "court_code": "tnwbk",
+      "total_cases": 2014,
+      "dismissed": 705,
+      "discharged": 566,
+      "dismissal_rate": 35.0,
+      "vs_national": 11.3,
+      "attorneys_tracked": 21
+    },
+    {
+      "court_code": "ganbk",
+      "total_cases": 1786,
+      "dismissed": 29,
+      "discharged": 354,
+      "dismissal_rate": 1.6,
+      "vs_national": -22.1,
+      "attorneys_tracked": 25
+    },
+    {
+      "court_code": "paebk",
+      "total_cases": 1778,
+      "dismissed": 5,
+      "discharged": 3,
+      "dismissal_rate": 0.3,
+      "vs_national": -23.4,
+      "attorneys_tracked": 22
+    },
+    {
+      "court_code": "njbk",
+      "total_cases": 1647,
+      "dismissed": 321,
+      "discharged": 569,
+      "dismissal_rate": 19.5,
+      "vs_national": -4.2,
+      "attorneys_tracked": 9
+    },
+    {
+      "court_code": "wiebk",
+      "total_cases": 1520,
+      "dismissed": 260,
+      "discharged": 1103,
+      "dismissal_rate": 17.1,
+      "vs_national": -6.6,
+      "attorneys_tracked": 3
+    },
+    {
+      "court_code": "innbk",
+      "total_cases": 1508,
+      "dismissed": 156,
+      "discharged": 384,
+      "dismissal_rate": 10.3,
+      "vs_national": -13.4,
+      "attorneys_tracked": 22
+    },
+    {
+      "court_code": "mabk",
+      "total_cases": 1441,
+      "dismissed": 52,
+      "discharged": 1232,
+      "dismissal_rate": 3.6,
+      "vs_national": -20.1,
+      "attorneys_tracked": 6
+    },
+    {
+      "court_code": "vaebk",
+      "total_cases": 1432,
+      "dismissed": 77,
+      "discharged": 61,
+      "dismissal_rate": 5.4,
+      "vs_national": -18.3,
+      "attorneys_tracked": 26
+    },
+    {
+      "court_code": "miebk",
+      "total_cases": 1408,
+      "dismissed": 72,
+      "discharged": 84,
+      "dismissal_rate": 5.1,
+      "vs_national": -18.6,
+      "attorneys_tracked": 15
+    },
+    {
+      "court_code": "txnbk",
+      "total_cases": 1249,
+      "dismissed": 5,
+      "discharged": 5,
+      "dismissal_rate": 0.4,
+      "vs_national": -23.3,
+      "attorneys_tracked": 28
+    },
+    {
+      "court_code": "kyebk",
+      "total_cases": 1227,
+      "dismissed": 96,
+      "discharged": 321,
+      "dismissal_rate": 7.8,
+      "vs_national": -15.9,
+      "attorneys_tracked": 26
+    },
+    {
+      "court_code": "nyebk",
+      "total_cases": 1087,
+      "dismissed": 66,
+      "discharged": 994,
+      "dismissal_rate": 6.1,
+      "vs_national": -17.6,
+      "attorneys_tracked": 6
+    },
+    {
+      "court_code": "almbk",
+      "total_cases": 1067,
+      "dismissed": 5,
+      "discharged": 12,
+      "dismissal_rate": 0.5,
+      "vs_national": -23.2,
+      "attorneys_tracked": 24
+    },
+    {
+      "court_code": "mdbk",
+      "total_cases": 969,
+      "dismissed": 41,
+      "discharged": 43,
+      "dismissal_rate": 4.2,
+      "vs_national": -19.5,
+      "attorneys_tracked": 22
+    },
+    {
+      "court_code": "alnbk",
+      "total_cases": 967,
+      "dismissed": 3,
+      "discharged": 8,
+      "dismissal_rate": 0.3,
+      "vs_national": -23.4,
+      "attorneys_tracked": 22
+    },
+    {
+      "court_code": "scbk",
+      "total_cases": 841,
+      "dismissed": 0,
+      "discharged": 2,
+      "dismissal_rate": 0.0,
+      "vs_national": -23.7,
+      "attorneys_tracked": 20
+    },
+    {
+      "court_code": "caebk",
+      "total_cases": 781,
+      "dismissed": 87,
+      "discharged": 664,
+      "dismissal_rate": 11.1,
+      "vs_national": -12.6,
+      "attorneys_tracked": 8
+    },
+    {
+      "court_code": "ncebk",
+      "total_cases": 732,
+      "dismissed": 0,
+      "discharged": 0,
+      "dismissal_rate": 0.0,
+      "vs_national": -23.7,
+      "attorneys_tracked": 17
+    },
+    {
+      "court_code": "arwbk",
+      "total_cases": 632,
+      "dismissed": 78,
+      "discharged": 252,
+      "dismissal_rate": 12.3,
+      "vs_national": -11.4,
+      "attorneys_tracked": 22
+    },
+    {
+      "court_code": "kywbk",
+      "total_cases": 619,
+      "dismissed": 97,
+      "discharged": 227,
+      "dismissal_rate": 15.7,
+      "vs_national": -8.0,
+      "attorneys_tracked": 4
+    },
+    {
+      "court_code": "ohsbk",
+      "total_cases": 613,
+      "dismissed": 2,
+      "discharged": 52,
+      "dismissal_rate": 0.3,
+      "vs_national": -23.4,
+      "attorneys_tracked": 31
+    },
+    {
+      "court_code": "arebk",
+      "total_cases": 514,
+      "dismissed": 35,
+      "discharged": 83,
+      "dismissal_rate": 6.8,
+      "vs_national": -16.9,
+      "attorneys_tracked": 22
+    },
+    {
+      "court_code": "ncmbk",
+      "total_cases": 449,
+      "dismissed": 6,
+      "discharged": 1,
+      "dismissal_rate": 1.3,
+      "vs_national": -22.4,
+      "attorneys_tracked": 22
+    },
+    {
+      "court_code": "flnbk",
+      "total_cases": 443,
+      "dismissed": 136,
+      "discharged": 272,
+      "dismissal_rate": 30.7,
+      "vs_national": 7.0,
+      "attorneys_tracked": 12
+    },
+    {
+      "court_code": "mnbk",
+      "total_cases": 405,
+      "dismissed": 24,
+      "discharged": 379,
+      "dismissal_rate": 5.9,
+      "vs_national": -17.8,
+      "attorneys_tracked": 2
+    },
+    {
+      "court_code": "nvbk",
+      "total_cases": 327,
+      "dismissed": 108,
+      "discharged": 191,
+      "dismissal_rate": 33.0,
+      "vs_national": 9.3,
+      "attorneys_tracked": 8
+    },
+    {
+      "court_code": "nysbk",
+      "total_cases": 135,
+      "dismissed": 18,
+      "discharged": 69,
+      "dismissal_rate": 13.3,
+      "vs_national": -10.4,
+      "attorneys_tracked": 11
+    },
+    {
+      "court_code": "ctbk",
+      "total_cases": 126,
+      "dismissed": 37,
+      "discharged": 64,
+      "dismissal_rate": 29.4,
+      "vs_national": 5.7,
+      "attorneys_tracked": 7
+    },
+    {
+      "court_code": "gambk",
+      "total_cases": 107,
+      "dismissed": 14,
+      "discharged": 90,
+      "dismissal_rate": 13.1,
+      "vs_national": -10.6,
+      "attorneys_tracked": 3
+    },
+    {
+      "court_code": "okwbk",
+      "total_cases": 106,
+      "dismissed": 3,
+      "discharged": 100,
+      "dismissal_rate": 2.8,
+      "vs_national": -20.9,
+      "attorneys_tracked": 3
+    },
+    {
+      "court_code": "wiwbk",
+      "total_cases": 101,
+      "dismissed": 25,
+      "discharged": 70,
+      "dismissal_rate": 24.8,
+      "vs_national": 1.1,
+      "attorneys_tracked": 3
+    }
+  ]
+}

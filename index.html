@@ -1,0 +1,725 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="referrer" content="no-referrer-when-downgrade">
+    <title>Attorney Performance Monitor -- Open Bankruptcy Project</title>
+    <meta name="description" content="Public dashboard tracking bankruptcy attorney performance: discharge rates, case volumes, and completion metrics across federal districts. Updated 2026.">
+    <meta name="keywords" content="bankruptcy attorney monitoring, dismissal rates, attorney performance, bankruptcy mill, court transparency, open data">
+    <link rel="canonical" href="https://monitor.openbankruptcyproject.org/">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>&#x1f50d;</text></svg>">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Attorney Performance Monitor -- Open Bankruptcy Project">
+    <meta property="og:description" content="Public dashboard tracking bankruptcy attorney performance: discharge rates, case volumes, and completion metrics across federal districts. Updated 2026.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://monitor.openbankruptcyproject.org/">
+    <meta property="og:site_name" content="Open Bankruptcy Project">
+<meta property="og:image" content="https://openbankruptcyproject.org/og-default.svg">
+<meta name="twitter:image" content="https://openbankruptcyproject.org/og-default.svg">
+<meta name="twitter:card" content="summary_large_image">
+
+    <!-- GA4 -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-FTWLM223G7"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-FTWLM223G7');
+        gtag('config', 'G-053Z64N82F');
+    </script>
+
+    <style>
+        :root {
+            --bg: #0a0e17;
+            --surface: #111827;
+            --surface2: #1a2332;
+            --border: #1e2d3d;
+            --text: #e2e8f0;
+            --text-dim: #8892a4;
+            --accent: #3b82f6;
+            --accent-glow: rgba(59, 130, 246, 0.15);
+            --red: #ef4444;
+            --red-bg: rgba(239, 68, 68, 0.1);
+            --yellow: #eab308;
+            --yellow-bg: rgba(234, 179, 8, 0.1);
+            --green: #22c55e;
+            --green-bg: rgba(34, 197, 94, 0.1);
+            --cyan: #06b6d4;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+            min-height: 100vh;
+        }
+
+        .container { max-width: 1400px; margin: 0 auto; padding: 0 20px; }
+
+        /* Header */
+        header {
+            background: linear-gradient(180deg, var(--surface) 0%, var(--bg) 100%);
+            border-bottom: 1px solid var(--border);
+            padding: 24px 0;
+        }
+        .header-inner {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 12px;
+        }
+        .logo-area { display: flex; align-items: center; gap: 14px; }
+        .logo-icon {
+            width: 44px; height: 44px;
+            background: var(--accent-glow);
+            border: 1px solid var(--accent);
+            border-radius: 10px;
+            display: flex; align-items: center; justify-content: center;
+            font-size: 22px;
+        }
+        .logo-text h1 {
+            font-size: 20px; font-weight: 700;
+            letter-spacing: -0.3px;
+        }
+        .logo-text .subtitle {
+            font-size: 12px; color: var(--text-dim);
+            text-transform: uppercase; letter-spacing: 1.5px;
+        }
+        .header-badge {
+            background: var(--green-bg);
+            color: var(--green);
+            font-size: 11px;
+            font-weight: 600;
+            padding: 4px 10px;
+            border-radius: 12px;
+            border: 1px solid rgba(34,197,94,0.2);
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        /* Summary Cards */
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 16px;
+            margin: 28px 0;
+        }
+        .card {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 20px;
+            text-align: center;
+        }
+        .card-value {
+            font-size: 32px;
+            font-weight: 800;
+            letter-spacing: -1px;
+            color: var(--accent);
+        }
+        .card-value.red { color: var(--red); }
+        .card-value.yellow { color: var(--yellow); }
+        .card-label {
+            font-size: 12px;
+            color: var(--text-dim);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-top: 6px;
+        }
+
+        /* Filter / Search */
+        .controls {
+            display: flex;
+            gap: 12px;
+            margin-bottom: 20px;
+            flex-wrap: wrap;
+            align-items: center;
+        }
+        .search-box {
+            flex: 1;
+            min-width: 200px;
+            padding: 10px 14px;
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            color: var(--text);
+            font-size: 14px;
+            outline: none;
+            transition: border-color 0.2s;
+        }
+        .search-box:focus { border-color: var(--accent); }
+        .search-box::placeholder { color: var(--text-dim); }
+        .filter-btn {
+            padding: 10px 16px;
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            color: var(--text-dim);
+            font-size: 13px;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+        .filter-btn:hover, .filter-btn.active {
+            border-color: var(--accent);
+            color: var(--text);
+            background: var(--accent-glow);
+        }
+
+        /* Sections */
+        .section {
+            margin-bottom: 36px;
+        }
+        .section-header {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 16px;
+        }
+        .section-header h2 {
+            font-size: 18px;
+            font-weight: 700;
+        }
+        .section-header .count {
+            font-size: 12px;
+            color: var(--text-dim);
+            background: var(--surface2);
+            padding: 2px 8px;
+            border-radius: 10px;
+        }
+
+        /* Tables */
+        .table-wrap {
+            overflow-x: auto;
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            background: var(--surface);
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 14px;
+        }
+        th {
+            background: var(--surface2);
+            padding: 12px 16px;
+            text-align: left;
+            font-size: 11px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: var(--text-dim);
+            cursor: pointer;
+            user-select: none;
+            white-space: nowrap;
+            border-bottom: 1px solid var(--border);
+        }
+        th:hover { color: var(--accent); }
+        th .sort-arrow { margin-left: 4px; font-size: 10px; }
+        td {
+            padding: 10px 16px;
+            border-bottom: 1px solid var(--border);
+            white-space: nowrap;
+        }
+        tr:last-child td { border-bottom: none; }
+        tr:hover td { background: rgba(59, 130, 246, 0.03); }
+
+        /* Rate badges */
+        .rate-badge {
+            display: inline-block;
+            padding: 2px 10px;
+            border-radius: 6px;
+            font-weight: 600;
+            font-size: 13px;
+        }
+        .rate-red { background: var(--red-bg); color: var(--red); }
+        .rate-yellow { background: var(--yellow-bg); color: var(--yellow); }
+        .rate-green { background: var(--green-bg); color: var(--green); }
+
+        /* Flag badges */
+        .flag-badge {
+            display: inline-block;
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-size: 11px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        .flag-critical { background: var(--red-bg); color: var(--red); border: 1px solid rgba(239,68,68,0.2); }
+        .flag-warning { background: var(--yellow-bg); color: var(--yellow); border: 1px solid rgba(234,179,8,0.2); }
+        .flag-volume { background: var(--accent-glow); color: var(--accent); border: 1px solid rgba(59,130,246,0.2); }
+        .flag-normal { background: var(--green-bg); color: var(--green); border: 1px solid rgba(34,197,94,0.2); }
+
+        /* Court pills */
+        .court-pills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 3px;
+            max-width: 280px;
+        }
+        .court-pill {
+            background: var(--surface2);
+            padding: 1px 6px;
+            border-radius: 3px;
+            font-size: 11px;
+            color: var(--text-dim);
+            font-family: monospace;
+        }
+        .court-overflow {
+            color: var(--accent);
+            font-size: 11px;
+            cursor: help;
+        }
+
+        /* Bar chart (CSS-only) */
+        .bar-row {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 6px;
+        }
+        .bar-label {
+            width: 60px;
+            font-size: 12px;
+            font-family: monospace;
+            color: var(--text-dim);
+            text-align: right;
+            flex-shrink: 0;
+        }
+        .bar-track {
+            flex: 1;
+            height: 22px;
+            background: var(--surface2);
+            border-radius: 4px;
+            overflow: hidden;
+            position: relative;
+        }
+        .bar-fill {
+            height: 100%;
+            border-radius: 4px;
+            transition: width 0.6s ease;
+        }
+        .bar-val {
+            width: 50px;
+            font-size: 12px;
+            color: var(--text-dim);
+            text-align: left;
+            flex-shrink: 0;
+        }
+
+        /* Delta indicators */
+        .delta-pos { color: var(--red); }
+        .delta-neg { color: var(--green); }
+        .delta-zero { color: var(--text-dim); }
+
+        /* Footer */
+        footer {
+            border-top: 1px solid var(--border);
+            padding: 28px 0;
+            margin-top: 40px;
+            text-align: center;
+        }
+        footer p {
+            font-size: 13px;
+            color: var(--text-dim);
+            line-height: 1.8;
+        }
+        footer a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+        footer a:hover { text-decoration: underline; }
+
+        /* Loading */
+        .loading {
+            text-align: center;
+            padding: 60px 20px;
+            color: var(--text-dim);
+        }
+        .loading .spinner {
+            display: inline-block;
+            width: 32px; height: 32px;
+            border: 3px solid var(--border);
+            border-top-color: var(--accent);
+            border-radius: 50%;
+            animation: spin 0.8s linear infinite;
+            margin-bottom: 12px;
+        }
+        @keyframes spin { to { transform: rotate(360deg); } }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .cards { grid-template-columns: repeat(2, 1fr); }
+            .card-value { font-size: 24px; }
+            .header-inner { flex-direction: column; align-items: flex-start; }
+            td, th { padding: 8px 10px; font-size: 12px; }
+        }
+        @media (max-width: 480px) {
+            .cards { grid-template-columns: 1fr 1fr; gap: 10px; }
+            .card { padding: 14px; }
+            .controls { flex-direction: column; }
+        }
+
+        /* No data */
+        .no-data {
+            text-align: center;
+            padding: 40px;
+            color: var(--text-dim);
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="container header-inner">
+        <div class="logo-area">
+            <div class="logo-icon">&#128269;</div>
+            <div class="logo-text">
+                <h1>Open Bankruptcy Project</h1>
+                <div class="subtitle">Attorney Performance Monitor</div>
+            </div>
+        </div>
+        <div class="header-badge" id="statusBadge">Loading...</div>
+    </div>
+</header>
+
+<main class="container">
+
+    <!-- Summary Cards -->
+    <div class="cards" id="summaryCards">
+        <div class="card"><div class="card-value" id="cardCases">--</div><div class="card-label">Cases Monitored</div></div>
+        <div class="card"><div class="card-value" id="cardDistricts">--</div><div class="card-label">Districts</div></div>
+        <div class="card"><div class="card-value" id="cardAttorneys">--</div><div class="card-label">Attorneys Tracked</div></div>
+        <div class="card"><div class="card-value red" id="cardFlagged">--</div><div class="card-label">Flagged</div></div>
+        <div class="card"><div class="card-value yellow" id="cardNatRate">--</div><div class="card-label">National Dismissal Rate</div></div>
+    </div>
+
+    <!-- Attorney Watchlist -->
+    <div class="section" id="attorneySection">
+        <div class="section-header">
+            <h2>Attorney Watchlist</h2>
+            <span class="count" id="attorneyCount">--</span>
+        </div>
+
+        <div class="controls">
+            <input type="text" class="search-box" id="attorneySearch" placeholder="Search by name or court code...">
+            <button class="filter-btn active" data-filter="all" onclick="setFilter('all',this)">All</button>
+            <button class="filter-btn" data-filter="critical" onclick="setFilter('critical',this)">Critical</button>
+            <button class="filter-btn" data-filter="warning" onclick="setFilter('warning',this)">Warning</button>
+            <button class="filter-btn" data-filter="volume" onclick="setFilter('volume',this)">High Volume</button>
+        </div>
+
+        <div class="table-wrap">
+            <table id="attorneyTable">
+                <thead>
+                    <tr>
+                        <th data-col="name" data-type="string">Name <span class="sort-arrow"></span></th>
+                        <th data-col="courts" data-type="string">Courts <span class="sort-arrow"></span></th>
+                        <th data-col="total_cases" data-type="number">Cases <span class="sort-arrow"></span></th>
+                        <th data-col="dismissed" data-type="number">Dismissed <span class="sort-arrow"></span></th>
+                        <th data-col="discharged" data-type="number">Discharged <span class="sort-arrow"></span></th>
+                        <th data-col="dismissal_rate" data-type="number">Dismissal Rate <span class="sort-arrow"></span></th>
+                        <th data-col="discharge_rate" data-type="number">Discharge Rate <span class="sort-arrow"></span></th>
+                        <th data-col="flag" data-type="string">Flag <span class="sort-arrow"></span></th>
+                    </tr>
+                </thead>
+                <tbody id="attorneyBody"></tbody>
+            </table>
+        </div>
+    </div>
+
+    <!-- Top Dismissal Rates Bar Chart -->
+    <div class="section" id="chartSection">
+        <div class="section-header">
+            <h2>Highest Dismissal Rates (min. 50 cases)</h2>
+        </div>
+        <div id="barChart" style="background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:20px;"></div>
+    </div>
+
+    <!-- District Summary -->
+    <div class="section" id="districtSection">
+        <div class="section-header">
+            <h2>District Summary</h2>
+            <span class="count" id="districtCount">--</span>
+        </div>
+        <div class="table-wrap">
+            <table id="districtTable">
+                <thead>
+                    <tr>
+                        <th data-col="court_code" data-type="string">Court <span class="sort-arrow"></span></th>
+                        <th data-col="total_cases" data-type="number">Cases <span class="sort-arrow"></span></th>
+                        <th data-col="dismissed" data-type="number">Dismissed <span class="sort-arrow"></span></th>
+                        <th data-col="discharged" data-type="number">Discharged <span class="sort-arrow"></span></th>
+                        <th data-col="dismissal_rate" data-type="number">Dismissal Rate <span class="sort-arrow"></span></th>
+                        <th data-col="vs_national" data-type="number">vs. National <span class="sort-arrow"></span></th>
+                        <th data-col="attorneys_tracked" data-type="number">Attorneys <span class="sort-arrow"></span></th>
+                    </tr>
+                </thead>
+                <tbody id="districtBody"></tbody>
+            </table>
+        </div>
+    </div>
+
+    <div class="loading" id="loadingState">
+        <div class="spinner"></div>
+        <div>Loading dashboard data...</div>
+    </div>
+
+
+<!-- BTN Cross-Links (auto-generated by crosslink_builder.py) -->
+<div class="btn-crosslinks" style="max-width:820px;margin:1.5rem auto;padding:1.5rem;background:#161b22;border:1px solid #30363d;border-radius:8px">
+  <p style="color:#f0f6fc;font-weight:600;font-size:1rem;margin:0 0 0.75rem 0">Related Guides</p>
+  <ul style="list-style:none;padding:0;margin:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:0.5rem">
+  <li><a href="https://kansascitybankruptcymill.com?utm_source=monitor.openbankruptcyproject.org&utm_medium=crosslink&utm_campaign=btn-network" style="color:#58a6ff;text-decoration:none">Kansas City Bankruptcy Mill Report</a></li>
+  <li><a href="https://bankruptcymalpractice.org?utm_source=monitor.openbankruptcyproject.org&utm_medium=crosslink&utm_campaign=btn-network" style="color:#58a6ff;text-decoration:none">Bankruptcy Malpractice Guide</a></li>
+  <li><a href="https://bankruptcymill.com?utm_source=monitor.openbankruptcyproject.org&utm_medium=crosslink&utm_campaign=btn-network" style="color:#58a6ff;text-decoration:none">What is a Bankruptcy Mill?</a></li>
+  <li><a href="https://bankruptcymill.org?utm_source=monitor.openbankruptcyproject.org&utm_medium=crosslink&utm_campaign=btn-network" style="color:#58a6ff;text-decoration:none">Bankruptcy Mill Warning Signs</a></li>
+  </ul>
+</div>
+
+</main>
+
+<footer>
+    <div class="container">
+        <p>
+            Data sourced from public federal court records (PACER / FJC IDB). Updated <span id="footerDate">--</span>.<br>
+            <a href="https://openbankruptcyproject.org">Open Bankruptcy Project</a> is a 501(c)(3) nonprofit (EIN 41-5159631).<br>
+            This dashboard presents aggregate statistical data for public accountability and research purposes.<br>
+            No individual case details or debtor information are displayed.
+        </p>
+    </div>
+</footer>
+
+<script>
+(function() {
+    'use strict';
+
+    let DATA = null;
+    let currentFilter = 'all';
+    let currentSort = { col: 'total_cases', dir: 'desc', table: null };
+    let searchTerm = '';
+
+    // -- Load data --
+    fetch('data/dashboard.json')
+        .then(r => {
+            if (!r.ok) throw new Error('Failed to load data');
+            return r.json();
+        })
+        .then(data => {
+            DATA = data;
+            document.getElementById('loadingState').style.display = 'none';
+            render();
+        })
+        .catch(err => {
+            document.getElementById('loadingState').innerHTML =
+                '<div style="color:var(--red)">Failed to load dashboard data. Check that data/dashboard.json exists.</div>';
+            console.error(err);
+        });
+
+    // -- Render all sections --
+    function render() {
+        renderSummary();
+        renderAttorneys();
+        renderBarChart();
+        renderDistricts();
+    }
+
+    function renderSummary() {
+        var s = DATA.summary;
+        document.getElementById('cardCases').textContent = s.total_cases.toLocaleString();
+        document.getElementById('cardDistricts').textContent = s.districts_monitored;
+        document.getElementById('cardAttorneys').textContent = s.attorneys_tracked;
+        document.getElementById('cardFlagged').textContent = s.attorneys_flagged;
+        document.getElementById('cardNatRate').textContent = s.national_dismissal_rate + '%';
+        document.getElementById('statusBadge').textContent = 'Live -- ' + DATA.last_updated;
+        document.getElementById('footerDate').textContent = DATA.last_updated;
+    }
+
+    // -- Attorney table --
+    function getFilteredAttorneys() {
+        return DATA.attorneys.filter(function(a) {
+            if (currentFilter !== 'all' && a.flag !== currentFilter) return false;
+            if (searchTerm) {
+                var q = searchTerm.toLowerCase();
+                var nameMatch = a.name.toLowerCase().indexOf(q) >= 0;
+                var courtMatch = a.courts.some(function(c) { return c.toLowerCase().indexOf(q) >= 0; });
+                if (!nameMatch && !courtMatch) return false;
+            }
+            return true;
+        });
+    }
+
+    function renderAttorneys() {
+        var list = getFilteredAttorneys();
+
+        // Sort
+        list.sort(function(a, b) {
+            var va = a[currentSort.col], vb = b[currentSort.col];
+            if (currentSort.col === 'courts') { va = a.courts.join(','); vb = b.courts.join(','); }
+            if (typeof va === 'string') {
+                var cmp = va.localeCompare(vb);
+                return currentSort.dir === 'asc' ? cmp : -cmp;
+            }
+            return currentSort.dir === 'asc' ? va - vb : vb - va;
+        });
+
+        document.getElementById('attorneyCount').textContent = list.length + ' attorneys';
+
+        var tbody = document.getElementById('attorneyBody');
+        var html = '';
+        for (var i = 0; i < list.length; i++) {
+            var a = list[i];
+            html += '<tr>';
+            html += '<td><strong>' + esc(a.name) + '</strong></td>';
+            html += '<td>' + renderCourts(a.courts) + '</td>';
+            html += '<td>' + a.total_cases.toLocaleString() + '</td>';
+            html += '<td>' + a.dismissed.toLocaleString() + '</td>';
+            html += '<td>' + a.discharged.toLocaleString() + '</td>';
+            html += '<td>' + rateBadge(a.dismissal_rate) + '</td>';
+            html += '<td><span class="rate-badge rate-green">' + a.discharge_rate + '%</span></td>';
+            html += '<td>' + flagBadge(a.flag) + '</td>';
+            html += '</tr>';
+        }
+        if (!html) html = '<tr><td colspan="8" class="no-data">No attorneys match the current filter.</td></tr>';
+        tbody.innerHTML = html;
+    }
+
+    function renderCourts(courts) {
+        var max = 5;
+        var html = '<div class="court-pills">';
+        for (var i = 0; i < Math.min(courts.length, max); i++) {
+            html += '<span class="court-pill">' + esc(courts[i]) + '</span>';
+        }
+        if (courts.length > max) {
+            html += '<span class="court-overflow" title="' + esc(courts.join(', ')) + '">+' + (courts.length - max) + '</span>';
+        }
+        html += '</div>';
+        return html;
+    }
+
+    function rateBadge(rate) {
+        var cls = rate >= 60 ? 'rate-red' : rate >= 40 ? 'rate-yellow' : 'rate-green';
+        return '<span class="rate-badge ' + cls + '">' + rate + '%</span>';
+    }
+
+    function flagBadge(flag) {
+        var labels = { critical: 'Critical', warning: 'Warning', volume: 'High Vol', normal: 'Normal' };
+        return '<span class="flag-badge flag-' + flag + '">' + (labels[flag] || flag) + '</span>';
+    }
+
+    // -- Bar chart --
+    function renderBarChart() {
+        var top = DATA.attorneys.slice().sort(function(a, b) { return b.dismissal_rate - a.dismissal_rate; }).slice(0, 15);
+        var maxRate = Math.max.apply(null, top.map(function(a) { return a.dismissal_rate; }));
+        if (maxRate < 100) maxRate = Math.min(100, maxRate * 1.15);
+
+        var html = '';
+        for (var i = 0; i < top.length; i++) {
+            var a = top[i];
+            var pct = (a.dismissal_rate / maxRate * 100).toFixed(1);
+            var color = a.dismissal_rate >= 60 ? 'var(--red)' : a.dismissal_rate >= 40 ? 'var(--yellow)' : 'var(--green)';
+            html += '<div class="bar-row">';
+            html += '<div class="bar-label">' + esc(a.name) + '</div>';
+            html += '<div class="bar-track"><div class="bar-fill" style="width:' + pct + '%;background:' + color + '"></div></div>';
+            html += '<div class="bar-val">' + a.dismissal_rate + '%</div>';
+            html += '</div>';
+        }
+        document.getElementById('barChart').innerHTML = html;
+    }
+
+    // -- District table --
+    function renderDistricts() {
+        var list = DATA.districts.slice();
+        document.getElementById('districtCount').textContent = list.length + ' districts';
+
+        var tbody = document.getElementById('districtBody');
+        var html = '';
+        for (var i = 0; i < list.length; i++) {
+            var d = list[i];
+            var deltaClass = d.vs_national > 0 ? 'delta-pos' : d.vs_national < 0 ? 'delta-neg' : 'delta-zero';
+            var deltaSign = d.vs_national > 0 ? '+' : '';
+            html += '<tr>';
+            html += '<td><span class="court-pill" style="font-size:13px">' + esc(d.court_code) + '</span></td>';
+            html += '<td>' + d.total_cases.toLocaleString() + '</td>';
+            html += '<td>' + d.dismissed.toLocaleString() + '</td>';
+            html += '<td>' + d.discharged.toLocaleString() + '</td>';
+            html += '<td>' + rateBadge(d.dismissal_rate) + '</td>';
+            html += '<td><span class="' + deltaClass + '">' + deltaSign + d.vs_national + '%</span></td>';
+            html += '<td>' + d.attorneys_tracked + '</td>';
+            html += '</tr>';
+        }
+        tbody.innerHTML = html;
+    }
+
+    // -- Sorting --
+    document.addEventListener('click', function(e) {
+        var th = e.target.closest('th');
+        if (!th || !th.dataset.col) return;
+
+        var table = th.closest('table');
+        var col = th.dataset.col;
+
+        if (currentSort.col === col && currentSort.table === table.id) {
+            currentSort.dir = currentSort.dir === 'asc' ? 'desc' : 'asc';
+        } else {
+            currentSort.col = col;
+            currentSort.dir = 'desc';
+            currentSort.table = table.id;
+        }
+
+        // Update arrow indicators
+        var allTh = table.querySelectorAll('th');
+        for (var i = 0; i < allTh.length; i++) {
+            allTh[i].querySelector('.sort-arrow').textContent = '';
+        }
+        th.querySelector('.sort-arrow').textContent = currentSort.dir === 'asc' ? ' \u25B2' : ' \u25BC';
+
+        if (table.id === 'attorneyTable') {
+            renderAttorneys();
+        } else if (table.id === 'districtTable') {
+            // Sort district table
+            DATA.districts.sort(function(a, b) {
+                var va = a[col], vb = b[col];
+                if (typeof va === 'string') {
+                    var cmp = va.localeCompare(vb);
+                    return currentSort.dir === 'asc' ? cmp : -cmp;
+                }
+                return currentSort.dir === 'asc' ? va - vb : vb - va;
+            });
+            renderDistricts();
+        }
+    });
+
+    // -- Search --
+    document.getElementById('attorneySearch').addEventListener('input', function(e) {
+        searchTerm = e.target.value;
+        renderAttorneys();
+    });
+
+    // -- Filter --
+    window.setFilter = function(filter, btn) {
+        currentFilter = filter;
+        var btns = document.querySelectorAll('.filter-btn');
+        for (var i = 0; i < btns.length; i++) btns[i].classList.remove('active');
+        btn.classList.add('active');
+        renderAttorneys();
+    };
+
+    // -- Helpers --
+    function esc(s) {
+        var d = document.createElement('div');
+        d.textContent = s;
+        return d.innerHTML;
+    }
+
+})();
+</script>
+
+</body>
+</html>
